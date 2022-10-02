@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_sword"
+  },
+  "addition": {
+    "item": "rfffpg:flawless_amber_gemstone"
+  },
+  "result": {
+    "item": "rfffpg:flawless_amber_netherite_sword"
+  }
+}

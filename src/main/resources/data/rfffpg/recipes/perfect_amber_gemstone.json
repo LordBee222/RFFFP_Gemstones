@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "rfffpg:flawless_amber_gemstone"
+    }
+  },
+  "result": {
+    "item": "rfffpg:perfect_amber_gemstone",
+    "count": 1
+  }
+}

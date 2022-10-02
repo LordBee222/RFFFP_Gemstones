@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_hoe"
+  },
+  "addition": {
+    "item": "rfffpg:fine_amber_gemstone"
+  },
+  "result": {
+    "item": "rfffpg:fine_amber_netherite_hoe"
+  }
+}

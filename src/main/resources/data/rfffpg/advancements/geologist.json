@@ -1,0 +1,86 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_pickaxe"
+    },
+    "title": "Geologist",
+    "description": "Obtain One Of Each Type Of Gemstone",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "rfffpg:rfffpg",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rfffpg:rough_amber_gemstone",
+              "rfffpg:flawed_amber_gemstone",
+              "rfffpg:fine_amber_gemstone",
+              "rfffpg:flawless_amber_gemstone",
+              "rfffpg:perfect_amber_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:rough_jade_gemstone",
+              "rfffpg:flawed_jade_gemstone",
+              "rfffpg:fine_jade_gemstone",
+              "rfffpg:flawless_jade_gemstone",
+              "rfffpg:perfect_jade_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:rough_jasper_gemstone",
+              "rfffpg:flawed_jasper_gemstone",
+              "rfffpg:fine_jasper_gemstone",
+              "rfffpg:flawless_jasper_gemstone",
+              "rfffpg:perfect_jasper_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:rough_opal_gemstone",
+              "rfffpg:flawed_opal_gemstone",
+              "rfffpg:fine_opal_gemstone",
+              "rfffpg:flawless_opal_gemstone",
+              "rfffpg:perfect_opal_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:rough_ruby_gemstone",
+              "rfffpg:flawed_ruby_gemstone",
+              "rfffpg:fine_ruby_gemstone",
+              "rfffpg:flawless_ruby_gemstone",
+              "rfffpg:perfect_ruby_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:rough_sapphire_gemstone",
+              "rfffpg:flawed_sapphire_gemstone",
+              "rfffpg:fine_sapphire_gemstone",
+              "rfffpg:flawless_sapphire_gemstone",
+              "rfffpg:perfect_sapphire_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:rough_topaz_gemstone",
+              "rfffpg:flawed_topaz_gemstone",
+              "rfffpg:fine_topaz_gemstone",
+              "rfffpg:flawless_topaz_gemstone",
+              "rfffpg:perfect_topaz_gemstone"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

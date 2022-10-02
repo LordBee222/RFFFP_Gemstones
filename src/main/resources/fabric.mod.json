@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "rfffp_gemstones",
+  "id": "rfffpg",
   "version": "${version}",
 
   "name": "RFFFP Gemstones",
@@ -19,11 +19,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.lordbee222.rfffpgemstones.RFFFPGemstonesMod"
+      "net.lordbee222.rfffpg.RFFFPGMod"
     ]
   },
   "mixins": [
-    "rfffpgemstones.mixins.json"
+    "rfffpg.mixins.json"
   ],
 
   "depends": {

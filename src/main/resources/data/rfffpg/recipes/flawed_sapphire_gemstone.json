@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "rfffpg:rough_sapphire_gemstone"
+    }
+  },
+  "result": {
+    "item": "rfffpg:flawed_sapphire_gemstone",
+    "count": 1
+  }
+}

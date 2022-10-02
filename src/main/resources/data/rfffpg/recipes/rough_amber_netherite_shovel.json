@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_shovel"
+  },
+  "addition": {
+    "item": "rfffpg:rough_amber_gemstone"
+  },
+  "result": {
+    "item": "rfffpg:rough_amber_netherite_shovel"
+  }
+}

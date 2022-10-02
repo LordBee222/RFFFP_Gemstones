@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "rfffpg:fine_jasper_gemstone"
+    },
+    "title": "Its A Fine Line",
+    "description": "Obtain A Fine Gemstone",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "rfffpg:flaw_in_the_plan",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rfffpg:fine_amber_gemstone",
+              "rfffpg:fine_jade_gemstone",
+              "rfffpg:fine_jasper_gemstone",
+              "rfffpg:fine_opal_gemstone",
+              "rfffpg:fine_ruby_gemstone",
+              "rfffpg:fine_sapphire_gemstone",
+              "rfffpg:fine_topaz_gemstone"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

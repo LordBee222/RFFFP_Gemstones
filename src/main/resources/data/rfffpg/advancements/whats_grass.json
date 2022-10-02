@@ -1,0 +1,198 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_pickaxe"
+    },
+    "title": "What's Grass?",
+    "description": "Obtain Evey Gemstone!",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "rfffpg:perfect_collection",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rfffpg:rough_amber_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:flawed_amber_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:fine_amber_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:flawless_amber_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:perfect_amber_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:rough_jade_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:flawed_jade_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:fine_jade_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:flawless_jade_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:perfect_jade_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:rough_jasper_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:flawed_jasper_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:fine_jasper_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:flawless_jasper_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:perfect_jasper_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:rough_opal_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:flawed_opal_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:fine_opal_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:flawless_opal_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:perfect_opal_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:rough_ruby_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:flawed_ruby_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:fine_ruby_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:flawless_ruby_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:perfect_ruby_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:rough_sapphire_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:flawed_sapphire_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:fine_sapphire_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:flawless_sapphire_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:perfect_sapphire_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:rough_topaz_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:flawed_topaz_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:fine_topaz_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:flawless_topaz_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:perfect_topaz_gemstone"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

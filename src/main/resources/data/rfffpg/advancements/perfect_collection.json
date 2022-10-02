@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_pickaxe"
+    },
+    "title": "Perfect Collection",
+    "description": "Obtain One Of Each Perfect Gemstone",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "rfffpg:geologist",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rfffpg:perfect_amber_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:perfect_jade_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:perfect_jasper_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:perfect_opal_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:perfect_ruby_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:perfect_sapphire_gemstone"
+            ]
+          },
+          {
+            "items": [
+              "rfffpg:perfect_topaz_gemstone"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

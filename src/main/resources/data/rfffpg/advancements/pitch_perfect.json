@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "rfffpg:perfect_ruby_gemstone"
+    },
+    "title": "Pitch Perfect",
+    "description": "Obtain A Perfect Gemstone",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "rfffpg:flawless_outlaw",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rfffpg:perfect_amber_gemstone",
+              "rfffpg:perfect_jade_gemstone",
+              "rfffpg:perfect_jasper_gemstone",
+              "rfffpg:perfect_opal_gemstone",
+              "rfffpg:perfect_ruby_gemstone",
+              "rfffpg:perfect_sapphire_gemstone",
+              "rfffpg:perfect_topaz_gemstone"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

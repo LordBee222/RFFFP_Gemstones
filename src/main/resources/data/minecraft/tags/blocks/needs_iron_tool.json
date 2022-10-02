@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "rfffpg:amber_ore",
+    "rfffpg:jade_ore",
+    "rfffpg:jasper_ore",
+    "rfffpg:opal_ore",
+    "rfffpg:ruby_ore",
+    "rfffpg:sapphire_ore",
+    "rfffpg:topaz_ore",
+    "rfffpg:deepslate_amber_ore",
+    "rfffpg:deepslate_jade_ore",
+    "rfffpg:deepslate_jasper_ore",
+    "rfffpg:deepslate_sapphire_ore",
+    "rfffpg:deepslate_topaz_ore"
+
+  ]
+}

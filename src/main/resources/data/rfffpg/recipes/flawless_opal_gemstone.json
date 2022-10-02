@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "rfffpg:fine_opal_gemstone"
+    }
+  },
+  "result": {
+    "item": "rfffpg:flawless_opal_gemstone",
+    "count": 1
+  }
+}

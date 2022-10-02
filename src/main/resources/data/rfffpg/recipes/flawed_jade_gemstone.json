@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "rfffpg:rough_jade_gemstone"
+    }
+  },
+  "result": {
+    "item": "rfffpg:flawed_jade_gemstone",
+    "count": 1
+  }
+}
