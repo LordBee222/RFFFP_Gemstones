@@ -1,9 +1,20 @@
 package net.lordbee222.rfffpg.item.custom.Gemstones.Jasper;
 
+import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.text.Text;
+import net.minecraft.world.World;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.List;
 
 public class PerfectJasperGemstoneItem extends Item {
     public PerfectJasperGemstoneItem(Settings settings) {
         super(settings);
+    }
+    @Override
+    public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+        tooltip.add(Text.translatable("item.rfffpg.perfect_flawed_jasper.tooltip"));
     }
 }

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_shovel"
+  },
+  "addition": {
+    "item": "rfffpg:flawless_jade_gemstone"
+  },
+  "result": {
+    "item": "rfffpg:flawless_jade_netherite_shovel"
+  }
+}

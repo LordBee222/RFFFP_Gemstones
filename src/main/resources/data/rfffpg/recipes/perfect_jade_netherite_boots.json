@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_boots"
+  },
+  "addition": {
+    "item": "rfffpg:perfect_jade_gemstone"
+  },
+  "result": {
+    "item": "rfffpg:perfect_jade_netherite_boots"
+  }
+}

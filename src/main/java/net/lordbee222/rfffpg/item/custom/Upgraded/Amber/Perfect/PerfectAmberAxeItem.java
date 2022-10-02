@@ -16,6 +16,6 @@ public class PerfectAmberAxeItem extends AxeItem {
     }
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add(Text.translatable("item.tweaked.perfect_amber_applied.tooltip"));
+        tooltip.add(Text.translatable("item.rfffpg.perfect_amber_applied.tooltip"));
     }
 }

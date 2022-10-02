@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_helmet"
+  },
+  "addition": {
+    "item": "rfffpg:fine_jade_gemstone"
+  },
+  "result": {
+    "item": "rfffpg:fine_jade_netherite_helmet"
+  }
+}

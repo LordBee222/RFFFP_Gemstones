@@ -15,6 +15,6 @@ public class FineAmberGemstoneItem extends Item {
     }
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add(Text.translatable("item.tweaked.fine_amber.tooltip"));
+        tooltip.add(Text.translatable("item.rfffpg.fine_amber.tooltip"));
     }
 }

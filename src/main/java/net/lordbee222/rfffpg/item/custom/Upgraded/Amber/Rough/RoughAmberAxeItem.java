@@ -16,6 +16,6 @@ public class RoughAmberAxeItem extends AxeItem {
     }
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add(Text.translatable("item.tweaked.rough_amber_applied.tooltip"));
+        tooltip.add(Text.translatable("item.rfffpg.rough_amber_applied.tooltip"));
     }
 }

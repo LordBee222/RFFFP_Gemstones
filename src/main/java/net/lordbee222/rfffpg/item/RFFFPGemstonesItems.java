@@ -9,6 +9,7 @@ import net.lordbee222.rfffpg.item.custom.Gemstones.Opal.*;
 import net.lordbee222.rfffpg.item.custom.Gemstones.Ruby.*;
 import net.lordbee222.rfffpg.item.custom.Gemstones.Sapphire.*;
 import net.lordbee222.rfffpg.item.custom.Gemstones.Topaz.*;
+import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.util.Identifier;
@@ -18,6 +19,16 @@ import net.lordbee222.rfffpg.item.custom.Upgraded.Amber.Flawed.*;
 import net.lordbee222.rfffpg.item.custom.Upgraded.Amber.Fine.*;
 import net.lordbee222.rfffpg.item.custom.Upgraded.Amber.Flawless.*;
 import net.lordbee222.rfffpg.item.custom.Upgraded.Amber.Perfect.*;
+import net.lordbee222.rfffpg.item.custom.Upgraded.Jade.Rough.*;
+import net.lordbee222.rfffpg.item.custom.Upgraded.Jade.Flawed.*;
+import net.lordbee222.rfffpg.item.custom.Upgraded.Jade.Fine.*;
+import net.lordbee222.rfffpg.item.custom.Upgraded.Jade.Flawless.*;
+import net.lordbee222.rfffpg.item.custom.Upgraded.Jade.Perfect.*;
+import net.lordbee222.rfffpg.item.custom.Upgraded.Jasper.Rough.*;
+import net.lordbee222.rfffpg.item.custom.Upgraded.Jasper.Flawed.*;
+import net.lordbee222.rfffpg.item.custom.Upgraded.Jasper.Fine.*;
+import net.lordbee222.rfffpg.item.custom.Upgraded.Jasper.Flawless.*;
+import net.lordbee222.rfffpg.item.custom.Upgraded.Jasper.Perfect.*;
 
 
 public class RFFFPGemstonesItems {
@@ -34,7 +45,6 @@ public class RFFFPGemstonesItems {
             new FlawlessAmberGemstoneItem(new FabricItemSettings().group(RFFFPGemstonesItemGroups.RFFFPG)));
     public static final Item PERFECT_AMBER_GEMSTONE = registerItem("perfect_amber_gemstone",
             new PerfectAmberGemstoneItem(new FabricItemSettings().group(RFFFPGemstonesItemGroups.RFFFPG)));
-
     public static final Item ROUGH_AMBER_NETHERITE_SWORD = registerItem("rough_amber_netherite_sword",
             new RoughAmberSwordItem(RFFFPGToolMaterial.ROUGH_AMBER_NETHERITE, 7, -2.4f,
                     new FabricItemSettings()));
@@ -50,7 +60,6 @@ public class RFFFPGemstonesItems {
     public static final Item ROUGH_AMBER_NETHERITE_HOE = registerItem("rough_amber_netherite_hoe",
             new RoughAmberHoeItem(RFFFPGToolMaterial.ROUGH_AMBER_NETHERITE, 0, 0f,
                     new FabricItemSettings()));
-
     public static final Item FLAWED_AMBER_NETHERITE_SWORD = registerItem("flawed_amber_netherite_sword",
             new FlawedAmberSwordItem(RFFFPGToolMaterial.FLAWED_AMBER_NETHERITE, 7, -2.4f,
                     new FabricItemSettings()));
@@ -66,7 +75,6 @@ public class RFFFPGemstonesItems {
     public static final Item FLAWED_AMBER_NETHERITE_HOE = registerItem("flawed_amber_netherite_hoe",
             new FlawedAmberHoeItem(RFFFPGToolMaterial.FLAWED_AMBER_NETHERITE, 0, 0f,
                     new FabricItemSettings()));
-
     public static final Item FINE_AMBER_NETHERITE_SWORD = registerItem("fine_amber_netherite_sword",
             new FineAmberSwordItem(RFFFPGToolMaterial.FINE_AMBER_NETHERITE, 7, -2.4f,
                     new FabricItemSettings()));
@@ -82,7 +90,6 @@ public class RFFFPGemstonesItems {
     public static final Item FINE_AMBER_NETHERITE_HOE = registerItem("fine_amber_netherite_hoe",
             new FineAmberHoeItem(RFFFPGToolMaterial.FINE_AMBER_NETHERITE, 0, 0f,
                     new FabricItemSettings()));
-
     public static final Item FLAWLESS_AMBER_NETHERITE_SWORD = registerItem("flawless_amber_netherite_sword",
             new FlawlessAmberSwordItem(RFFFPGToolMaterial.FLAWLESS_AMBER_NETHERITE, 7, -2.4f,
                     new FabricItemSettings()));
@@ -98,7 +105,6 @@ public class RFFFPGemstonesItems {
     public static final Item FLAWLESS_AMBER_NETHERITE_HOE = registerItem("flawless_amber_netherite_hoe",
             new FlawlessAmberHoeItem(RFFFPGToolMaterial.FLAWLESS_AMBER_NETHERITE, 0, 0f,
                     new FabricItemSettings()));
-
     public static final Item PERFECT_AMBER_NETHERITE_SWORD = registerItem("perfect_amber_netherite_sword",
             new PerfectAmberSwordItem(RFFFPGToolMaterial.PERFECT_AMBER_NETHERITE, 7, -2.4f,
                     new FabricItemSettings()));
@@ -115,6 +121,8 @@ public class RFFFPGemstonesItems {
             new PerfectAmberHoeItem(RFFFPGToolMaterial.PERFECT_AMBER_NETHERITE, 0, 0f,
                     new FabricItemSettings()));
 
+
+
     public static final Item ROUGH_JADE_GEMSTONE = registerItem("rough_jade_gemstone",
             new RoughJadeGemstoneItem(new FabricItemSettings().group(RFFFPGemstonesItemGroups.RFFFPG)));
     public static final Item FLAWED_JADE_GEMSTONE = registerItem("flawed_jade_gemstone",
@@ -125,6 +133,143 @@ public class RFFFPGemstonesItems {
             new FlawlessJadeGemstoneItem(new FabricItemSettings().group(RFFFPGemstonesItemGroups.RFFFPG)));
     public static final Item PERFECT_JADE_GEMSTONE = registerItem("perfect_jade_gemstone",
             new PerfectJadeGemstoneItem(new FabricItemSettings().group(RFFFPGemstonesItemGroups.RFFFPG)));
+    public static final Item ROUGH_JADE_NETHERITE_SWORD = registerItem("rough_jade_netherite_sword",
+            new RoughJadeSwordItem(RFFFPGToolMaterial.ROUGH_JADE_NETHERITE, 7, -2.4f,
+                    new FabricItemSettings()));
+    public static final Item ROUGH_JADE_NETHERITE_PICKAXE = registerItem("rough_jade_netherite_pickaxe",
+            new RoughJadePickaxeItem(RFFFPGToolMaterial.ROUGH_JADE_NETHERITE, 5, -2.8f,
+                    new FabricItemSettings()));
+    public static final Item ROUGH_JADE_NETHERITE_AXE = registerItem("rough_jade_netherite_axe",
+            new RoughJadeAxeItem(RFFFPGToolMaterial.ROUGH_JADE_NETHERITE, 9, -3f,
+                    new FabricItemSettings()));
+    public static final Item ROUGH_JADE_NETHERITE_SHOVEL = registerItem("rough_jade_netherite_shovel",
+            new RoughJadeShovelItem((ToolMaterial) RFFFPGToolMaterial.ROUGH_JADE_NETHERITE, 5.5F, -3f,
+                    new FabricItemSettings()));
+    public static final Item ROUGH_JADE_NETHERITE_HOE = registerItem("rough_jade_netherite_hoe",
+            new RoughJadeHoeItem(RFFFPGToolMaterial.ROUGH_JADE_NETHERITE, 0, 0f,
+                    new FabricItemSettings()));
+    public static final Item FLAWED_JADE_NETHERITE_SWORD = registerItem("flawed_jade_netherite_sword",
+            new FlawedJadeSwordItem(RFFFPGToolMaterial.FLAWED_JADE_NETHERITE, 7, -2.4f,
+                    new FabricItemSettings()));
+    public static final Item FLAWED_JADE_NETHERITE_PICKAXE = registerItem("flawed_jade_netherite_pickaxe",
+            new FlawedJadePickaxeItem(RFFFPGToolMaterial.FLAWED_JADE_NETHERITE, 5, -2.8f,
+                    new FabricItemSettings()));
+    public static final Item FLAWED_JADE_NETHERITE_AXE = registerItem("flawed_jade_netherite_axe",
+            new FlawedJadeAxeItem(RFFFPGToolMaterial.FLAWED_JADE_NETHERITE, 9, -3f,
+                    new FabricItemSettings()));
+    public static final Item FLAWED_JADE_NETHERITE_SHOVEL = registerItem("flawed_jade_netherite_shovel",
+            new FlawedJadeShovelItem((ToolMaterial) RFFFPGToolMaterial.FLAWED_JADE_NETHERITE, 5.5F, -3f,
+                    new FabricItemSettings()));
+    public static final Item FLAWED_JADE_NETHERITE_HOE = registerItem("flawed_jade_netherite_hoe",
+            new FlawedJadeHoeItem(RFFFPGToolMaterial.FLAWED_JADE_NETHERITE, 0, 0f,
+                    new FabricItemSettings()));
+    public static final Item FINE_JADE_NETHERITE_SWORD = registerItem("fine_jade_netherite_sword",
+            new FineJadeSwordItem(RFFFPGToolMaterial.FINE_JADE_NETHERITE, 7, -2.4f,
+                    new FabricItemSettings()));
+    public static final Item FINE_JADE_NETHERITE_PICKAXE = registerItem("fine_jade_netherite_pickaxe",
+            new FineJadePickaxeItem(RFFFPGToolMaterial.FINE_JADE_NETHERITE, 5, -2.8f,
+                    new FabricItemSettings()));
+    public static final Item FINE_JADE_NETHERITE_AXE = registerItem("fine_jade_netherite_axe",
+            new FineJadeAxeItem(RFFFPGToolMaterial.FINE_JADE_NETHERITE, 9, -3f,
+                    new FabricItemSettings()));
+    public static final Item FINE_JADE_NETHERITE_SHOVEL = registerItem("fine_jade_netherite_shovel",
+            new FineJadeShovelItem((ToolMaterial) RFFFPGToolMaterial.FINE_JADE_NETHERITE, 5.5F, -3f,
+                    new FabricItemSettings()));
+    public static final Item FINE_JADE_NETHERITE_HOE = registerItem("fine_jade_netherite_hoe",
+            new FineJadeHoeItem(RFFFPGToolMaterial.FINE_JADE_NETHERITE, 0, 0f,
+                    new FabricItemSettings()));
+    public static final Item FLAWLESS_JADE_NETHERITE_SWORD = registerItem("flawless_jade_netherite_sword",
+            new FlawlessJadeSwordItem(RFFFPGToolMaterial.FLAWLESS_JADE_NETHERITE, 7, -2.4f,
+                    new FabricItemSettings()));
+    public static final Item FLAWLESS_JADE_NETHERITE_PICKAXE = registerItem("flawless_jade_netherite_pickaxe",
+            new FlawlessJadePickaxeItem(RFFFPGToolMaterial.FLAWLESS_JADE_NETHERITE, 5, -2.8f,
+                    new FabricItemSettings()));
+    public static final Item FLAWLESS_JADE_NETHERITE_AXE = registerItem("flawless_jade_netherite_axe",
+            new FlawlessJadeAxeItem(RFFFPGToolMaterial.FLAWLESS_JADE_NETHERITE, 9, -3f,
+                    new FabricItemSettings()));
+    public static final Item FLAWLESS_JADE_NETHERITE_SHOVEL = registerItem("flawless_jade_netherite_shovel",
+            new FlawlessJadeShovelItem((ToolMaterial) RFFFPGToolMaterial.FLAWLESS_JADE_NETHERITE, 5.5F, -3f,
+                    new FabricItemSettings()));
+    public static final Item FLAWLESS_JADE_NETHERITE_HOE = registerItem("flawless_jade_netherite_hoe",
+            new FlawlessJadeHoeItem(RFFFPGToolMaterial.FLAWLESS_JADE_NETHERITE, 0, 0f,
+                    new FabricItemSettings()));
+    public static final Item PERFECT_JADE_NETHERITE_SWORD = registerItem("perfect_jade_netherite_sword",
+            new PerfectJadeSwordItem(RFFFPGToolMaterial.PERFECT_JADE_NETHERITE, 7, -2.4f,
+                    new FabricItemSettings()));
+    public static final Item PERFECT_JADE_NETHERITE_PICKAXE = registerItem("perfect_jade_netherite_pickaxe",
+            new PerfectJadePickaxeItem(RFFFPGToolMaterial.PERFECT_JADE_NETHERITE, 5, -2.8f,
+                    new FabricItemSettings()));
+    public static final Item PERFECT_JADE_NETHERITE_AXE = registerItem("perfect_jade_netherite_axe",
+            new PerfectJadeAxeItem(RFFFPGToolMaterial.PERFECT_JADE_NETHERITE, 9, -3f,
+                    new FabricItemSettings()));
+    public static final Item PERFECT_JADE_NETHERITE_SHOVEL = registerItem("perfect_jade_netherite_shovel",
+            new PerfectJadeShovelItem((ToolMaterial) RFFFPGToolMaterial.PERFECT_JADE_NETHERITE, 5.5F, -3f,
+                    new FabricItemSettings()));
+    public static final Item PERFECT_JADE_NETHERITE_HOE = registerItem("perfect_jade_netherite_hoe",
+            new PerfectJadeHoeItem(RFFFPGToolMaterial.PERFECT_JADE_NETHERITE, 0, 0f,
+                    new FabricItemSettings()));
+    public static final Item ROUGH_JADE_NETHERITE_HELMET = registerItem("rough_jade_netherite_helmet",
+            new RoughJadeArmorItem(RFFFPGArmorMaterials.ROUGH_JADE_NETHERITE, EquipmentSlot.HEAD,
+                    new FabricItemSettings()));
+    public static final Item ROUGH_JADE_NETHERITE_CHESTPLATE = registerItem("rough_jade_netherite_chestplate",
+            new RoughJadeArmorItem(RFFFPGArmorMaterials.ROUGH_JADE_NETHERITE, EquipmentSlot.CHEST,
+                    new FabricItemSettings()));
+    public static final Item ROUGH_JADE_NETHERITE_LEGGINGS = registerItem("rough_jade_netherite_leggings",
+            new RoughJadeArmorItem(RFFFPGArmorMaterials.ROUGH_JADE_NETHERITE, EquipmentSlot.LEGS,
+                    new FabricItemSettings()));
+    public static final Item ROUGH_JADE_NETHERITE_BOOTS = registerItem("rough_jade_netherite_boots",
+            new RoughJadeArmorItem(RFFFPGArmorMaterials.ROUGH_JADE_NETHERITE, EquipmentSlot.FEET,
+                    new FabricItemSettings()));
+    public static final Item FLAWED_JADE_NETHERITE_HELMET = registerItem("flawed_jade_netherite_helmet",
+            new FlawedJadeArmorItem(RFFFPGArmorMaterials.FLAWED_JADE_NETHERITE, EquipmentSlot.HEAD,
+                    new FabricItemSettings()));
+    public static final Item FLAWED_JADE_NETHERITE_CHESTPLATE = registerItem("flawed_jade_netherite_chestplate",
+            new FlawedJadeArmorItem(RFFFPGArmorMaterials.FLAWED_JADE_NETHERITE, EquipmentSlot.CHEST,
+                    new FabricItemSettings()));
+    public static final Item FLAWED_JADE_NETHERITE_LEGGINGS = registerItem("flawed_jade_netherite_leggings",
+            new FlawedJadeArmorItem(RFFFPGArmorMaterials.FLAWED_JADE_NETHERITE, EquipmentSlot.LEGS,
+                    new FabricItemSettings()));
+    public static final Item FLAWED_JADE_NETHERITE_BOOTS = registerItem("flawed_jade_netherite_boots",
+            new FlawedJadeArmorItem(RFFFPGArmorMaterials.FLAWED_JADE_NETHERITE, EquipmentSlot.FEET,
+                    new FabricItemSettings()));
+    public static final Item FINE_JADE_NETHERITE_HELMET = registerItem("fine_jade_netherite_helmet",
+            new FineJadeArmorItem(RFFFPGArmorMaterials.FINE_JADE_NETHERITE, EquipmentSlot.HEAD,
+                    new FabricItemSettings()));
+    public static final Item FINE_JADE_NETHERITE_CHESTPLATE = registerItem("fine_jade_netherite_chestplate",
+            new FineJadeArmorItem(RFFFPGArmorMaterials.FINE_JADE_NETHERITE, EquipmentSlot.CHEST,
+                    new FabricItemSettings()));
+    public static final Item FINE_JADE_NETHERITE_LEGGINGS = registerItem("fine_jade_netherite_leggings",
+            new FineJadeArmorItem(RFFFPGArmorMaterials.FINE_JADE_NETHERITE, EquipmentSlot.LEGS,
+                    new FabricItemSettings()));
+    public static final Item FINE_JADE_NETHERITE_BOOTS = registerItem("fine_jade_netherite_boots",
+            new FineJadeArmorItem(RFFFPGArmorMaterials.FINE_JADE_NETHERITE, EquipmentSlot.FEET,
+                    new FabricItemSettings()));
+    public static final Item FLAWLESS_JADE_NETHERITE_HELMET = registerItem("flawless_jade_netherite_helmet",
+            new FlawlessJadeArmorItem(RFFFPGArmorMaterials.FLAWLESS_JADE_NETHERITE, EquipmentSlot.HEAD,
+                    new FabricItemSettings()));
+    public static final Item FLAWLESS_JADE_NETHERITE_CHESTPLATE = registerItem("flawless_jade_netherite_chestplate",
+            new FlawlessJadeArmorItem(RFFFPGArmorMaterials.FLAWLESS_JADE_NETHERITE, EquipmentSlot.CHEST,
+                    new FabricItemSettings()));
+    public static final Item FLAWLESS_JADE_NETHERITE_LEGGINGS = registerItem("flawless_jade_netherite_leggings",
+            new FlawlessJadeArmorItem(RFFFPGArmorMaterials.FLAWLESS_JADE_NETHERITE, EquipmentSlot.LEGS,
+                    new FabricItemSettings()));
+    public static final Item FLAWLESS_JADE_NETHERITE_BOOTS = registerItem("flawless_jade_netherite_boots",
+            new FlawlessJadeArmorItem(RFFFPGArmorMaterials.FLAWLESS_JADE_NETHERITE, EquipmentSlot.FEET,
+                    new FabricItemSettings()));
+    public static final Item PERFECT_JADE_NETHERITE_HELMET = registerItem("perfect_jade_netherite_helmet",
+            new PerfectJadeArmorItem(RFFFPGArmorMaterials.PERFECT_JADE_NETHERITE, EquipmentSlot.HEAD,
+                    new FabricItemSettings()));
+    public static final Item PERFECT_JADE_NETHERITE_CHESTPLATE = registerItem("perfect_jade_netherite_chestplate",
+            new PerfectJadeArmorItem(RFFFPGArmorMaterials.PERFECT_JADE_NETHERITE, EquipmentSlot.CHEST,
+                    new FabricItemSettings()));
+    public static final Item PERFECT_JADE_NETHERITE_LEGGINGS = registerItem("perfect_jade_netherite_leggings",
+            new PerfectJadeArmorItem(RFFFPGArmorMaterials.PERFECT_JADE_NETHERITE, EquipmentSlot.LEGS,
+                    new FabricItemSettings()));
+    public static final Item PERFECT_JADE_NETHERITE_BOOTS = registerItem("perfect_jade_netherite_boots",
+            new PerfectJadeArmorItem(RFFFPGArmorMaterials.PERFECT_JADE_NETHERITE, EquipmentSlot.FEET,
+                    new FabricItemSettings()));
+
+
 
     public static final Item ROUGH_JASPER_GEMSTONE = registerItem("rough_jasper_gemstone",
             new RoughJasperGemstoneItem(new FabricItemSettings().group(RFFFPGemstonesItemGroups.RFFFPG)));
@@ -136,6 +281,143 @@ public class RFFFPGemstonesItems {
             new FlawlessJasperGemstoneItem(new FabricItemSettings().group(RFFFPGemstonesItemGroups.RFFFPG)));
     public static final Item PERFECT_JASPER_GEMSTONE = registerItem("perfect_jasper_gemstone",
             new PerfectJasperGemstoneItem(new FabricItemSettings().group(RFFFPGemstonesItemGroups.RFFFPG)));
+    public static final Item ROUGH_JASPER_NETHERITE_SWORD = registerItem("rough_jasper_netherite_sword",
+            new RoughJasperSwordItem(RFFFPGToolMaterial.ROUGH_JASPER_NETHERITE, 7, -2.4f,
+                    new FabricItemSettings()));
+    public static final Item ROUGH_JASPER_NETHERITE_PICKAXE = registerItem("rough_jasper_netherite_pickaxe",
+            new RoughJasperPickaxeItem(RFFFPGToolMaterial.ROUGH_JASPER_NETHERITE, 5, -2.8f,
+                    new FabricItemSettings()));
+    public static final Item ROUGH_JASPER_NETHERITE_AXE = registerItem("rough_jasper_netherite_axe",
+            new RoughJasperAxeItem(RFFFPGToolMaterial.ROUGH_JASPER_NETHERITE, 9, -3f,
+                    new FabricItemSettings()));
+    public static final Item ROUGH_JASPER_NETHERITE_SHOVEL = registerItem("rough_jasper_netherite_shovel",
+            new RoughJasperShovelItem((ToolMaterial) RFFFPGToolMaterial.ROUGH_JASPER_NETHERITE, 5.5F, -3f,
+                    new FabricItemSettings()));
+    public static final Item ROUGH_JASPER_NETHERITE_HOE = registerItem("rough_jasper_netherite_hoe",
+            new RoughJasperHoeItem(RFFFPGToolMaterial.ROUGH_JASPER_NETHERITE, 0, 0f,
+                    new FabricItemSettings()));
+    public static final Item FLAWED_JASPER_NETHERITE_SWORD = registerItem("flawed_jasper_netherite_sword",
+            new FlawedJasperSwordItem(RFFFPGToolMaterial.FLAWED_JASPER_NETHERITE, 7, -2.4f,
+                    new FabricItemSettings()));
+    public static final Item FLAWED_JASPER_NETHERITE_PICKAXE = registerItem("flawed_jasper_netherite_pickaxe",
+            new FlawedJasperPickaxeItem(RFFFPGToolMaterial.FLAWED_JASPER_NETHERITE, 5, -2.8f,
+                    new FabricItemSettings()));
+    public static final Item FLAWED_JASPER_NETHERITE_AXE = registerItem("flawed_jasper_netherite_axe",
+            new FlawedJasperAxeItem(RFFFPGToolMaterial.FLAWED_JASPER_NETHERITE, 9, -3f,
+                    new FabricItemSettings()));
+    public static final Item FLAWED_JASPER_NETHERITE_SHOVEL = registerItem("flawed_jasper_netherite_shovel",
+            new FlawedJasperShovelItem((ToolMaterial) RFFFPGToolMaterial.FLAWED_JASPER_NETHERITE, 5.5F, -3f,
+                    new FabricItemSettings()));
+    public static final Item FLAWED_JASPER_NETHERITE_HOE = registerItem("flawed_jasper_netherite_hoe",
+            new FlawedJasperHoeItem(RFFFPGToolMaterial.FLAWED_JASPER_NETHERITE, 0, 0f,
+                    new FabricItemSettings()));
+    public static final Item FINE_JASPER_NETHERITE_SWORD = registerItem("fine_jasper_netherite_sword",
+            new FineJasperSwordItem(RFFFPGToolMaterial.FINE_JASPER_NETHERITE, 7, -2.4f,
+                    new FabricItemSettings()));
+    public static final Item FINE_JASPER_NETHERITE_PICKAXE = registerItem("fine_jasper_netherite_pickaxe",
+            new FineJasperPickaxeItem(RFFFPGToolMaterial.FINE_JASPER_NETHERITE, 5, -2.8f,
+                    new FabricItemSettings()));
+    public static final Item FINE_JASPER_NETHERITE_AXE = registerItem("fine_jasper_netherite_axe",
+            new FineJasperAxeItem(RFFFPGToolMaterial.FINE_JASPER_NETHERITE, 9, -3f,
+                    new FabricItemSettings()));
+    public static final Item FINE_JASPER_NETHERITE_SHOVEL = registerItem("fine_jasper_netherite_shovel",
+            new FineJasperShovelItem((ToolMaterial) RFFFPGToolMaterial.FINE_JASPER_NETHERITE, 5.5F, -3f,
+                    new FabricItemSettings()));
+    public static final Item FINE_JASPER_NETHERITE_HOE = registerItem("fine_jasper_netherite_hoe",
+            new FineJasperHoeItem(RFFFPGToolMaterial.FINE_JASPER_NETHERITE, 0, 0f,
+                    new FabricItemSettings()));
+    public static final Item FLAWLESS_JASPER_NETHERITE_SWORD = registerItem("flawless_jasper_netherite_sword",
+            new FlawlessJasperSwordItem(RFFFPGToolMaterial.FLAWLESS_JASPER_NETHERITE, 7, -2.4f,
+                    new FabricItemSettings()));
+    public static final Item FLAWLESS_JASPER_NETHERITE_PICKAXE = registerItem("flawless_jasper_netherite_pickaxe",
+            new FlawlessJasperPickaxeItem(RFFFPGToolMaterial.FLAWLESS_JASPER_NETHERITE, 5, -2.8f,
+                    new FabricItemSettings()));
+    public static final Item FLAWLESS_JASPER_NETHERITE_AXE = registerItem("flawless_jasper_netherite_axe",
+            new FlawlessJasperAxeItem(RFFFPGToolMaterial.FLAWLESS_JASPER_NETHERITE, 9, -3f,
+                    new FabricItemSettings()));
+    public static final Item FLAWLESS_JASPER_NETHERITE_SHOVEL = registerItem("flawless_jasper_netherite_shovel",
+            new FlawlessJasperShovelItem((ToolMaterial) RFFFPGToolMaterial.FLAWLESS_JASPER_NETHERITE, 5.5F, -3f,
+                    new FabricItemSettings()));
+    public static final Item FLAWLESS_JASPER_NETHERITE_HOE = registerItem("flawless_jasper_netherite_hoe",
+            new FlawlessJasperHoeItem(RFFFPGToolMaterial.FLAWLESS_JASPER_NETHERITE, 0, 0f,
+                    new FabricItemSettings()));
+    public static final Item PERFECT_JASPER_NETHERITE_SWORD = registerItem("perfect_jasper_netherite_sword",
+            new PerfectJasperSwordItem(RFFFPGToolMaterial.PERFECT_JASPER_NETHERITE, 7, -2.4f,
+                    new FabricItemSettings()));
+    public static final Item PERFECT_JASPER_NETHERITE_PICKAXE = registerItem("perfect_jasper_netherite_pickaxe",
+            new PerfectJasperPickaxeItem(RFFFPGToolMaterial.PERFECT_JASPER_NETHERITE, 5, -2.8f,
+                    new FabricItemSettings()));
+    public static final Item PERFECT_JASPER_NETHERITE_AXE = registerItem("perfect_jasper_netherite_axe",
+            new PerfectJasperAxeItem(RFFFPGToolMaterial.PERFECT_JASPER_NETHERITE, 9, -3f,
+                    new FabricItemSettings()));
+    public static final Item PERFECT_JASPER_NETHERITE_SHOVEL = registerItem("perfect_jasper_netherite_shovel",
+            new PerfectJasperShovelItem((ToolMaterial) RFFFPGToolMaterial.PERFECT_JASPER_NETHERITE, 5.5F, -3f,
+                    new FabricItemSettings()));
+    public static final Item PERFECT_JASPER_NETHERITE_HOE = registerItem("perfect_jasper_netherite_hoe",
+            new PerfectJasperHoeItem(RFFFPGToolMaterial.PERFECT_JASPER_NETHERITE, 0, 0f,
+                    new FabricItemSettings()));
+    public static final Item ROUGH_JASPER_NETHERITE_HELMET = registerItem("rough_jasper_netherite_helmet",
+            new RoughJasperArmorItem(RFFFPGArmorMaterials.ROUGH_JASPER_NETHERITE, EquipmentSlot.HEAD,
+                    new FabricItemSettings()));
+    public static final Item ROUGH_JASPER_NETHERITE_CHESTPLATE = registerItem("rough_jasper_netherite_chestplate",
+            new RoughJasperArmorItem(RFFFPGArmorMaterials.ROUGH_JASPER_NETHERITE, EquipmentSlot.CHEST,
+                    new FabricItemSettings()));
+    public static final Item ROUGH_JASPER_NETHERITE_LEGGINGS = registerItem("rough_jasper_netherite_leggings",
+            new RoughJasperArmorItem(RFFFPGArmorMaterials.ROUGH_JASPER_NETHERITE, EquipmentSlot.LEGS,
+                    new FabricItemSettings()));
+    public static final Item ROUGH_JASPER_NETHERITE_BOOTS = registerItem("rough_jasper_netherite_boots",
+            new RoughJasperArmorItem(RFFFPGArmorMaterials.ROUGH_JASPER_NETHERITE, EquipmentSlot.FEET,
+                    new FabricItemSettings()));
+    public static final Item FLAWED_JASPER_NETHERITE_HELMET = registerItem("flawed_jasper_netherite_helmet",
+            new FlawedJasperArmorItem(RFFFPGArmorMaterials.FLAWED_JASPER_NETHERITE, EquipmentSlot.HEAD,
+                    new FabricItemSettings()));
+    public static final Item FLAWED_JASPER_NETHERITE_CHESTPLATE = registerItem("flawed_jasper_netherite_chestplate",
+            new FlawedJasperArmorItem(RFFFPGArmorMaterials.FLAWED_JASPER_NETHERITE, EquipmentSlot.CHEST,
+                    new FabricItemSettings()));
+    public static final Item FLAWED_JASPER_NETHERITE_LEGGINGS = registerItem("flawed_jasper_netherite_leggings",
+            new FlawedJasperArmorItem(RFFFPGArmorMaterials.FLAWED_JASPER_NETHERITE, EquipmentSlot.LEGS,
+                    new FabricItemSettings()));
+    public static final Item FLAWED_JASPER_NETHERITE_BOOTS = registerItem("flawed_jasper_netherite_boots",
+            new FlawedJasperArmorItem(RFFFPGArmorMaterials.FLAWED_JASPER_NETHERITE, EquipmentSlot.FEET,
+                    new FabricItemSettings()));
+    public static final Item FINE_JASPER_NETHERITE_HELMET = registerItem("fine_jasper_netherite_helmet",
+            new FineJasperArmorItem(RFFFPGArmorMaterials.FINE_JASPER_NETHERITE, EquipmentSlot.HEAD,
+                    new FabricItemSettings()));
+    public static final Item FINE_JASPER_NETHERITE_CHESTPLATE = registerItem("fine_jasper_netherite_chestplate",
+            new FineJasperArmorItem(RFFFPGArmorMaterials.FINE_JASPER_NETHERITE, EquipmentSlot.CHEST,
+                    new FabricItemSettings()));
+    public static final Item FINE_JASPER_NETHERITE_LEGGINGS = registerItem("fine_jasper_netherite_leggings",
+            new FineJasperArmorItem(RFFFPGArmorMaterials.FINE_JASPER_NETHERITE, EquipmentSlot.LEGS,
+                    new FabricItemSettings()));
+    public static final Item FINE_JASPER_NETHERITE_BOOTS = registerItem("fine_jasper_netherite_boots",
+            new FineJasperArmorItem(RFFFPGArmorMaterials.FINE_JASPER_NETHERITE, EquipmentSlot.FEET,
+                    new FabricItemSettings()));
+    public static final Item FLAWLESS_JASPER_NETHERITE_HELMET = registerItem("flawless_jasper_netherite_helmet",
+            new FlawlessJasperArmorItem(RFFFPGArmorMaterials.FLAWLESS_JASPER_NETHERITE, EquipmentSlot.HEAD,
+                    new FabricItemSettings()));
+    public static final Item FLAWLESS_JASPER_NETHERITE_CHESTPLATE = registerItem("flawless_jasper_netherite_chestplate",
+            new FlawlessJasperArmorItem(RFFFPGArmorMaterials.FLAWLESS_JASPER_NETHERITE, EquipmentSlot.CHEST,
+                    new FabricItemSettings()));
+    public static final Item FLAWLESS_JASPER_NETHERITE_LEGGINGS = registerItem("flawless_jasper_netherite_leggings",
+            new FlawlessJasperArmorItem(RFFFPGArmorMaterials.FLAWLESS_JASPER_NETHERITE, EquipmentSlot.LEGS,
+                    new FabricItemSettings()));
+    public static final Item FLAWLESS_JASPER_NETHERITE_BOOTS = registerItem("flawless_jasper_netherite_boots",
+            new FlawlessJasperArmorItem(RFFFPGArmorMaterials.FLAWLESS_JASPER_NETHERITE, EquipmentSlot.FEET,
+                    new FabricItemSettings()));
+    public static final Item PERFECT_JASPER_NETHERITE_HELMET = registerItem("perfect_jasper_netherite_helmet",
+            new PerfectJasperArmorItem(RFFFPGArmorMaterials.PERFECT_JASPER_NETHERITE, EquipmentSlot.HEAD,
+                    new FabricItemSettings()));
+    public static final Item PERFECT_JASPER_NETHERITE_CHESTPLATE = registerItem("perfect_jasper_netherite_chestplate",
+            new PerfectJasperArmorItem(RFFFPGArmorMaterials.PERFECT_JASPER_NETHERITE, EquipmentSlot.CHEST,
+                    new FabricItemSettings()));
+    public static final Item PERFECT_JASPER_NETHERITE_LEGGINGS = registerItem("perfect_jasper_netherite_leggings",
+            new PerfectJasperArmorItem(RFFFPGArmorMaterials.PERFECT_JASPER_NETHERITE, EquipmentSlot.LEGS,
+                    new FabricItemSettings()));
+    public static final Item PERFECT_JASPER_NETHERITE_BOOTS = registerItem("perfect_jasper_netherite_boots",
+            new PerfectJasperArmorItem(RFFFPGArmorMaterials.PERFECT_JASPER_NETHERITE, EquipmentSlot.FEET,
+                    new FabricItemSettings()));
+
+
 
     public static final Item ROUGH_OPAL_GEMSTONE = registerItem("rough_opal_gemstone",
             new RoughOpalGemstoneItem(new FabricItemSettings().group(RFFFPGemstonesItemGroups.RFFFPG)));

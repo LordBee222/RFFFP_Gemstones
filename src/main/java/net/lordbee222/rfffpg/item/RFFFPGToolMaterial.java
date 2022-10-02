@@ -18,6 +18,28 @@ public enum RFFFPGToolMaterial implements ToolMaterial {
     FLAWLESS_AMBER_NETHERITE(MiningLevels.NETHERITE, 2031, 17F, 0, 15, () ->
             Ingredient.ofItems(Items.NETHERITE_INGOT)),
     PERFECT_AMBER_NETHERITE(MiningLevels.NETHERITE, 2031, 25F, 0, 15, () ->
+            Ingredient.ofItems(Items.NETHERITE_INGOT)),
+
+    ROUGH_JADE_NETHERITE(MiningLevels.NETHERITE, 2131, 9F, 0, 15, () ->
+            Ingredient.ofItems(Items.NETHERITE_INGOT)),
+    FLAWED_JADE_NETHERITE(MiningLevels.NETHERITE, 2231, 9F, 0, 15, () ->
+            Ingredient.ofItems(Items.NETHERITE_INGOT)),
+    FINE_JADE_NETHERITE(MiningLevels.NETHERITE, 2431, 9F, 0, 15, () ->
+            Ingredient.ofItems(Items.NETHERITE_INGOT)),
+    FLAWLESS_JADE_NETHERITE(MiningLevels.NETHERITE, 2831, 9F, 0, 15, () ->
+            Ingredient.ofItems(Items.NETHERITE_INGOT)),
+    PERFECT_JADE_NETHERITE(MiningLevels.NETHERITE, 3631, 9F, 0, 15, () ->
+            Ingredient.ofItems(Items.NETHERITE_INGOT)),
+
+    ROUGH_JASPER_NETHERITE(MiningLevels.NETHERITE, 2031, 9F, 0, 16, () ->
+            Ingredient.ofItems(Items.NETHERITE_INGOT)),
+    FLAWED_JASPER_NETHERITE(MiningLevels.NETHERITE, 2031, 9F, 0, 17, () ->
+            Ingredient.ofItems(Items.NETHERITE_INGOT)),
+    FINE_JASPER_NETHERITE(MiningLevels.NETHERITE, 2031, 9F, 0, 19, () ->
+            Ingredient.ofItems(Items.NETHERITE_INGOT)),
+    FLAWLESS_JASPER_NETHERITE(MiningLevels.NETHERITE, 2031, 9F, 0, 23, () ->
+            Ingredient.ofItems(Items.NETHERITE_INGOT)),
+    PERFECT_JASPER_NETHERITE(MiningLevels.NETHERITE, 2031, 9F, 0, 31, () ->
             Ingredient.ofItems(Items.NETHERITE_INGOT));
 
 

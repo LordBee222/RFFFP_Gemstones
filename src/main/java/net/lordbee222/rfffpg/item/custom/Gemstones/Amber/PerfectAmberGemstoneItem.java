@@ -15,6 +15,6 @@ public class PerfectAmberGemstoneItem extends Item {
     }
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add(Text.translatable("item.tweaked.perfect_amber.tooltip"));
+        tooltip.add(Text.translatable("item.rfffpg.perfect_amber.tooltip"));
     }
 }

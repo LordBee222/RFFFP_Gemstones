@@ -15,6 +15,6 @@ public class RoughAmberGemstoneItem extends Item {
     }
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add(Text.translatable("item.tweaked.rough_amber.tooltip"));
+        tooltip.add(Text.translatable("item.rfffpg.rough_amber.tooltip"));
     }
 }
