@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_leggings"
+  },
+  "addition": {
+    "item": "rfffpg:flawed_jasper_gemstone"
+  },
+  "result": {
+    "item": "rfffpg:flawed_jasper_netherite_leggings"
+  }
+}

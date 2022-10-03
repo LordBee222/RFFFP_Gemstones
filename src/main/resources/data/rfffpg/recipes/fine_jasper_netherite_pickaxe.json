@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_pickaxe"
+  },
+  "addition": {
+    "item": "rfffpg:fine_jasper_gemstone"
+  },
+  "result": {
+    "item": "rfffpg:fine_jasper_netherite_pickaxe"
+  }
+}

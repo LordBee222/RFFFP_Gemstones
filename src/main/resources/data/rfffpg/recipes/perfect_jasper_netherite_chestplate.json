@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_chestplate"
+  },
+  "addition": {
+    "item": "rfffpg:perfect_jasper_gemstone"
+  },
+  "result": {
+    "item": "rfffpg:perfect_jasper_netherite_chestplate"
+  }
+}

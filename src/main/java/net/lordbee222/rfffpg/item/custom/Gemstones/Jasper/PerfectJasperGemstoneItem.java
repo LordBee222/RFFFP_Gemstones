@@ -15,6 +15,6 @@ public class PerfectJasperGemstoneItem extends Item {
     }
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add(Text.translatable("item.rfffpg.perfect_flawed_jasper.tooltip"));
+        tooltip.add(Text.translatable("item.rfffpg.perfect_jasper.tooltip"));
     }
 }
