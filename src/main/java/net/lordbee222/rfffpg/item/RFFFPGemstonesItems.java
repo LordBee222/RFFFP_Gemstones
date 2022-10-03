@@ -29,6 +29,16 @@ import net.lordbee222.rfffpg.item.custom.Upgraded.Jasper.Flawed.*;
 import net.lordbee222.rfffpg.item.custom.Upgraded.Jasper.Fine.*;
 import net.lordbee222.rfffpg.item.custom.Upgraded.Jasper.Flawless.*;
 import net.lordbee222.rfffpg.item.custom.Upgraded.Jasper.Perfect.*;
+import net.lordbee222.rfffpg.item.custom.Upgraded.Opal.Rough.*;
+import net.lordbee222.rfffpg.item.custom.Upgraded.Opal.Flawed.*;
+import net.lordbee222.rfffpg.item.custom.Upgraded.Opal.Fine.*;
+import net.lordbee222.rfffpg.item.custom.Upgraded.Opal.Flawless.*;
+import net.lordbee222.rfffpg.item.custom.Upgraded.Opal.Perfect.*;
+import net.lordbee222.rfffpg.item.custom.Upgraded.Ruby.Rough.*;
+import net.lordbee222.rfffpg.item.custom.Upgraded.Ruby.Flawed.*;
+import net.lordbee222.rfffpg.item.custom.Upgraded.Ruby.Fine.*;
+import net.lordbee222.rfffpg.item.custom.Upgraded.Ruby.Flawless.*;
+import net.lordbee222.rfffpg.item.custom.Upgraded.Ruby.Perfect.*;
 
 
 public class RFFFPGemstonesItems {
@@ -429,6 +439,68 @@ public class RFFFPGemstonesItems {
             new FlawlessOpalGemstoneItem(new FabricItemSettings().group(RFFFPGemstonesItemGroups.RFFFPG)));
     public static final Item PERFECT_OPAL_GEMSTONE = registerItem("perfect_opal_gemstone",
             new PerfectOpalGemstoneItem(new FabricItemSettings().group(RFFFPGemstonesItemGroups.RFFFPG)));
+    public static final Item ROUGH_OPAL_NETHERITE_HELMET = registerItem("rough_opal_netherite_helmet",
+            new RoughOpalArmorItem(RFFFPGArmorMaterials.ROUGH_OPAL_NETHERITE, EquipmentSlot.HEAD,
+                    new FabricItemSettings()));
+    public static final Item ROUGH_OPAL_NETHERITE_CHESTPLATE = registerItem("rough_opal_netherite_chestplate",
+            new RoughOpalArmorItem(RFFFPGArmorMaterials.ROUGH_OPAL_NETHERITE, EquipmentSlot.CHEST,
+                    new FabricItemSettings()));
+    public static final Item ROUGH_OPAL_NETHERITE_LEGGINGS = registerItem("rough_opal_netherite_leggings",
+            new RoughOpalArmorItem(RFFFPGArmorMaterials.ROUGH_OPAL_NETHERITE, EquipmentSlot.LEGS,
+                    new FabricItemSettings()));
+    public static final Item ROUGH_OPAL_NETHERITE_BOOTS = registerItem("rough_opal_netherite_boots",
+            new RoughOpalArmorItem(RFFFPGArmorMaterials.ROUGH_OPAL_NETHERITE, EquipmentSlot.FEET,
+                    new FabricItemSettings()));
+    public static final Item FLAWED_OPAL_NETHERITE_HELMET = registerItem("flawed_opal_netherite_helmet",
+            new FlawedOpalArmorItem(RFFFPGArmorMaterials.FLAWED_OPAL_NETHERITE, EquipmentSlot.HEAD,
+                    new FabricItemSettings()));
+    public static final Item FLAWED_OPAL_NETHERITE_CHESTPLATE = registerItem("flawed_opal_netherite_chestplate",
+            new FlawedOpalArmorItem(RFFFPGArmorMaterials.FLAWED_OPAL_NETHERITE, EquipmentSlot.CHEST,
+                    new FabricItemSettings()));
+    public static final Item FLAWED_OPAL_NETHERITE_LEGGINGS = registerItem("flawed_opal_netherite_leggings",
+            new FlawedOpalArmorItem(RFFFPGArmorMaterials.FLAWED_OPAL_NETHERITE, EquipmentSlot.LEGS,
+                    new FabricItemSettings()));
+    public static final Item FLAWED_OPAL_NETHERITE_BOOTS = registerItem("flawed_opal_netherite_boots",
+            new FlawedOpalArmorItem(RFFFPGArmorMaterials.FLAWED_OPAL_NETHERITE, EquipmentSlot.FEET,
+                    new FabricItemSettings()));
+    public static final Item FINE_OPAL_NETHERITE_HELMET = registerItem("fine_opal_netherite_helmet",
+            new FineOpalArmorItem(RFFFPGArmorMaterials.FINE_OPAL_NETHERITE, EquipmentSlot.HEAD,
+                    new FabricItemSettings()));
+    public static final Item FINE_OPAL_NETHERITE_CHESTPLATE = registerItem("fine_opal_netherite_chestplate",
+            new FineOpalArmorItem(RFFFPGArmorMaterials.FINE_OPAL_NETHERITE, EquipmentSlot.CHEST,
+                    new FabricItemSettings()));
+    public static final Item FINE_OPAL_NETHERITE_LEGGINGS = registerItem("fine_opal_netherite_leggings",
+            new FineOpalArmorItem(RFFFPGArmorMaterials.FINE_OPAL_NETHERITE, EquipmentSlot.LEGS,
+                    new FabricItemSettings()));
+    public static final Item FINE_OPAL_NETHERITE_BOOTS = registerItem("fine_opal_netherite_boots",
+            new FineOpalArmorItem(RFFFPGArmorMaterials.FINE_OPAL_NETHERITE, EquipmentSlot.FEET,
+                    new FabricItemSettings()));
+    public static final Item FLAWLESS_OPAL_NETHERITE_HELMET = registerItem("flawless_opal_netherite_helmet",
+            new FlawlessOpalArmorItem(RFFFPGArmorMaterials.FLAWLESS_OPAL_NETHERITE, EquipmentSlot.HEAD,
+                    new FabricItemSettings()));
+    public static final Item FLAWLESS_OPAL_NETHERITE_CHESTPLATE = registerItem("flawless_opal_netherite_chestplate",
+            new FlawlessOpalArmorItem(RFFFPGArmorMaterials.FLAWLESS_OPAL_NETHERITE, EquipmentSlot.CHEST,
+                    new FabricItemSettings()));
+    public static final Item FLAWLESS_OPAL_NETHERITE_LEGGINGS = registerItem("flawless_opal_netherite_leggings",
+            new FlawlessOpalArmorItem(RFFFPGArmorMaterials.FLAWLESS_OPAL_NETHERITE, EquipmentSlot.LEGS,
+                    new FabricItemSettings()));
+    public static final Item FLAWLESS_OPAL_NETHERITE_BOOTS = registerItem("flawless_opal_netherite_boots",
+            new FlawlessOpalArmorItem(RFFFPGArmorMaterials.FLAWLESS_OPAL_NETHERITE, EquipmentSlot.FEET,
+                    new FabricItemSettings()));
+    public static final Item PERFECT_OPAL_NETHERITE_HELMET = registerItem("perfect_opal_netherite_helmet",
+            new PerfectOpalArmorItem(RFFFPGArmorMaterials.PERFECT_OPAL_NETHERITE, EquipmentSlot.HEAD,
+                    new FabricItemSettings()));
+    public static final Item PERFECT_OPAL_NETHERITE_CHESTPLATE = registerItem("perfect_opal_netherite_chestplate",
+            new PerfectOpalArmorItem(RFFFPGArmorMaterials.PERFECT_OPAL_NETHERITE, EquipmentSlot.CHEST,
+                    new FabricItemSettings()));
+    public static final Item PERFECT_OPAL_NETHERITE_LEGGINGS = registerItem("perfect_opal_netherite_leggings",
+            new PerfectOpalArmorItem(RFFFPGArmorMaterials.PERFECT_OPAL_NETHERITE, EquipmentSlot.LEGS,
+                    new FabricItemSettings()));
+    public static final Item PERFECT_OPAL_NETHERITE_BOOTS = registerItem("perfect_opal_netherite_boots",
+            new PerfectOpalArmorItem(RFFFPGArmorMaterials.PERFECT_OPAL_NETHERITE, EquipmentSlot.FEET,
+                    new FabricItemSettings()));
+
+
 
     public static final Item ROUGH_RUBY_GEMSTONE = registerItem("rough_ruby_gemstone",
             new RoughRubyGemstoneItem(new FabricItemSettings().group(RFFFPGemstonesItemGroups.RFFFPG)));
@@ -440,6 +512,83 @@ public class RFFFPGemstonesItems {
             new FlawlessRubyGemstoneItem(new FabricItemSettings().group(RFFFPGemstonesItemGroups.RFFFPG)));
     public static final Item PERFECT_RUBY_GEMSTONE = registerItem("perfect_ruby_gemstone",
             new PerfectRubyGemstoneItem(new FabricItemSettings().group(RFFFPGemstonesItemGroups.RFFFPG)));
+    public static final Item ROUGH_RUBY_NETHERITE_SWORD = registerItem("rough_ruby_netherite_sword",
+            new RoughRubySwordItem(RFFFPGToolMaterial.ROUGH_RUBY_NETHERITE, 7, -2.4f,
+                    new FabricItemSettings()));
+    public static final Item ROUGH_RUBY_NETHERITE_PICKAXE = registerItem("rough_ruby_netherite_pickaxe",
+            new RoughRubyPickaxeItem(RFFFPGToolMaterial.ROUGH_RUBY_NETHERITE, 5, -2.8f,
+                    new FabricItemSettings()));
+    public static final Item ROUGH_RUBY_NETHERITE_AXE = registerItem("rough_ruby_netherite_axe",
+            new RoughRubyAxeItem(RFFFPGToolMaterial.ROUGH_RUBY_NETHERITE, 9, -3f,
+                    new FabricItemSettings()));
+    public static final Item ROUGH_RUBY_NETHERITE_SHOVEL = registerItem("rough_ruby_netherite_shovel",
+            new RoughRubyShovelItem((ToolMaterial) RFFFPGToolMaterial.ROUGH_RUBY_NETHERITE, 5.5F, -3f,
+                    new FabricItemSettings()));
+    public static final Item ROUGH_RUBY_NETHERITE_HOE = registerItem("rough_ruby_netherite_hoe",
+            new RoughRubyHoeItem(RFFFPGToolMaterial.ROUGH_RUBY_NETHERITE, 0, 0f,
+                    new FabricItemSettings()));
+    public static final Item FLAWED_RUBY_NETHERITE_SWORD = registerItem("flawed_ruby_netherite_sword",
+            new FlawedRubySwordItem(RFFFPGToolMaterial.FLAWED_RUBY_NETHERITE, 7, -2.4f,
+                    new FabricItemSettings()));
+    public static final Item FLAWED_RUBY_NETHERITE_PICKAXE = registerItem("flawed_ruby_netherite_pickaxe",
+            new FlawedRubyPickaxeItem(RFFFPGToolMaterial.FLAWED_RUBY_NETHERITE, 5, -2.8f,
+                    new FabricItemSettings()));
+    public static final Item FLAWED_RUBY_NETHERITE_AXE = registerItem("flawed_ruby_netherite_axe",
+            new FlawedRubyAxeItem(RFFFPGToolMaterial.FLAWED_RUBY_NETHERITE, 9, -3f,
+                    new FabricItemSettings()));
+    public static final Item FLAWED_RUBY_NETHERITE_SHOVEL = registerItem("flawed_ruby_netherite_shovel",
+            new FlawedRubyShovelItem((ToolMaterial) RFFFPGToolMaterial.FLAWED_RUBY_NETHERITE, 5.5F, -3f,
+                    new FabricItemSettings()));
+    public static final Item FLAWED_RUBY_NETHERITE_HOE = registerItem("flawed_ruby_netherite_hoe",
+            new FlawedRubyHoeItem(RFFFPGToolMaterial.FLAWED_RUBY_NETHERITE, 0, 0f,
+                    new FabricItemSettings()));
+    public static final Item FINE_RUBY_NETHERITE_SWORD = registerItem("fine_ruby_netherite_sword",
+            new FineRubySwordItem(RFFFPGToolMaterial.FINE_RUBY_NETHERITE, 7, -2.4f,
+                    new FabricItemSettings()));
+    public static final Item FINE_RUBY_NETHERITE_PICKAXE = registerItem("fine_ruby_netherite_pickaxe",
+            new FineRubyPickaxeItem(RFFFPGToolMaterial.FINE_RUBY_NETHERITE, 5, -2.8f,
+                    new FabricItemSettings()));
+    public static final Item FINE_RUBY_NETHERITE_AXE = registerItem("fine_ruby_netherite_axe",
+            new FineRubyAxeItem(RFFFPGToolMaterial.FINE_RUBY_NETHERITE, 9, -3f,
+                    new FabricItemSettings()));
+    public static final Item FINE_RUBY_NETHERITE_SHOVEL = registerItem("fine_ruby_netherite_shovel",
+            new FineRubyShovelItem((ToolMaterial) RFFFPGToolMaterial.FINE_RUBY_NETHERITE, 5.5F, -3f,
+                    new FabricItemSettings()));
+    public static final Item FINE_RUBY_NETHERITE_HOE = registerItem("fine_ruby_netherite_hoe",
+            new FineRubyHoeItem(RFFFPGToolMaterial.FINE_RUBY_NETHERITE, 0, 0f,
+                    new FabricItemSettings()));
+    public static final Item FLAWLESS_RUBY_NETHERITE_SWORD = registerItem("flawless_ruby_netherite_sword",
+            new FlawlessRubySwordItem(RFFFPGToolMaterial.FLAWLESS_RUBY_NETHERITE, 7, -2.4f,
+                    new FabricItemSettings()));
+    public static final Item FLAWLESS_RUBY_NETHERITE_PICKAXE = registerItem("flawless_ruby_netherite_pickaxe",
+            new FlawlessRubyPickaxeItem(RFFFPGToolMaterial.FLAWLESS_RUBY_NETHERITE, 5, -2.8f,
+                    new FabricItemSettings()));
+    public static final Item FLAWLESS_RUBY_NETHERITE_AXE = registerItem("flawless_ruby_netherite_axe",
+            new FlawlessRubyAxeItem(RFFFPGToolMaterial.FLAWLESS_RUBY_NETHERITE, 9, -3f,
+                    new FabricItemSettings()));
+    public static final Item FLAWLESS_RUBY_NETHERITE_SHOVEL = registerItem("flawless_ruby_netherite_shovel",
+            new FlawlessRubyShovelItem((ToolMaterial) RFFFPGToolMaterial.FLAWLESS_RUBY_NETHERITE, 5.5F, -3f,
+                    new FabricItemSettings()));
+    public static final Item FLAWLESS_RUBY_NETHERITE_HOE = registerItem("flawless_ruby_netherite_hoe",
+            new FlawlessRubyHoeItem(RFFFPGToolMaterial.FLAWLESS_RUBY_NETHERITE, 0, 0f,
+                    new FabricItemSettings()));
+    public static final Item PERFECT_RUBY_NETHERITE_SWORD = registerItem("perfect_ruby_netherite_sword",
+            new PerfectRubySwordItem(RFFFPGToolMaterial.PERFECT_RUBY_NETHERITE, 7, -2.4f,
+                    new FabricItemSettings()));
+    public static final Item PERFECT_RUBY_NETHERITE_PICKAXE = registerItem("perfect_ruby_netherite_pickaxe",
+            new PerfectRubyPickaxeItem(RFFFPGToolMaterial.PERFECT_RUBY_NETHERITE, 5, -2.8f,
+                    new FabricItemSettings()));
+    public static final Item PERFECT_RUBY_NETHERITE_AXE = registerItem("perfect_ruby_netherite_axe",
+            new PerfectRubyAxeItem(RFFFPGToolMaterial.PERFECT_RUBY_NETHERITE, 9, -3f,
+                    new FabricItemSettings()));
+    public static final Item PERFECT_RUBY_NETHERITE_SHOVEL = registerItem("perfect_ruby_netherite_shovel",
+            new PerfectRubyShovelItem((ToolMaterial) RFFFPGToolMaterial.PERFECT_RUBY_NETHERITE, 5.5F, -3f,
+                    new FabricItemSettings()));
+    public static final Item PERFECT_RUBY_NETHERITE_HOE = registerItem("perfect_ruby_netherite_hoe",
+            new PerfectRubyHoeItem(RFFFPGToolMaterial.PERFECT_RUBY_NETHERITE, 0, 0f,
+                    new FabricItemSettings()));
+
+
 
     public static final Item ROUGH_SAPPHIRE_GEMSTONE = registerItem("rough_sapphire_gemstone",
             new RoughSapphireGemstoneItem(new FabricItemSettings().group(RFFFPGemstonesItemGroups.RFFFPG)));

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_boots"
+  },
+  "addition": {
+    "item": "rfffpg:flawed_opal_gemstone"
+  },
+  "result": {
+    "item": "rfffpg:flawed_opal_netherite_boots"
+  }
+}

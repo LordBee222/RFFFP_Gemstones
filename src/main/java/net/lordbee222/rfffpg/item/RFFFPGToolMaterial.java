@@ -40,6 +40,17 @@ public enum RFFFPGToolMaterial implements ToolMaterial {
     FLAWLESS_JASPER_NETHERITE(MiningLevels.NETHERITE, 2031, 9F, 0, 23, () ->
             Ingredient.ofItems(Items.NETHERITE_INGOT)),
     PERFECT_JASPER_NETHERITE(MiningLevels.NETHERITE, 2031, 9F, 0, 31, () ->
+            Ingredient.ofItems(Items.NETHERITE_INGOT)),
+
+    ROUGH_RUBY_NETHERITE(MiningLevels.NETHERITE, 2031, 9F, 0, 15, () ->
+            Ingredient.ofItems(Items.NETHERITE_INGOT)),
+    FLAWED_RUBY_NETHERITE(MiningLevels.NETHERITE, 2031, 9F, 0, 15, () ->
+            Ingredient.ofItems(Items.NETHERITE_INGOT)),
+    FINE_RUBY_NETHERITE(MiningLevels.NETHERITE, 2031, 9F, 0, 15, () ->
+            Ingredient.ofItems(Items.NETHERITE_INGOT)),
+    FLAWLESS_RUBY_NETHERITE(MiningLevels.NETHERITE, 2031, 9F, 0, 15, () ->
+            Ingredient.ofItems(Items.NETHERITE_INGOT)),
+    PERFECT_RUBY_NETHERITE(MiningLevels.NETHERITE, 2031, 9F, 0, 15, () ->
             Ingredient.ofItems(Items.NETHERITE_INGOT));
 
 

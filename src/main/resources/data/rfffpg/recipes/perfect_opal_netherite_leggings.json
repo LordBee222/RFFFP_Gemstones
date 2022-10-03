@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_leggings"
+  },
+  "addition": {
+    "item": "rfffpg:perfect_opal_gemstone"
+  },
+  "result": {
+    "item": "rfffpg:perfect_opal_netherite_leggings"
+  }
+}
