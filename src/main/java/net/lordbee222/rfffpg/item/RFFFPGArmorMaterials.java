@@ -58,6 +58,22 @@ public enum RFFFPGArmorMaterials implements ArmorMaterial {
             () -> Ingredient.ofItems(Items.NETHERITE_INGOT)),
     PERFECT_OPAL_NETHERITE("perfect_opal_netherite", 37, new int[]{19, 22, 24, 19}, 15,
             SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3F, 0.1F,
+            () -> Ingredient.ofItems(Items.NETHERITE_INGOT)),
+
+    ROUGH_SAPPHIRE_NETHERITE("rough_sapphire_netherite", 37, new int[]{3, 6, 8, 3}, 15,
+            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3F, 0.2F,
+            () -> Ingredient.ofItems(Items.NETHERITE_INGOT)),
+    FLAWED_SAPPHIRE_NETHERITE("flawed_sapphire_netherite", 37, new int[]{3, 6, 8, 3}, 15,
+            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3F, 0.3F,
+            () -> Ingredient.ofItems(Items.NETHERITE_INGOT)),
+    FINE_SAPPHIRE_NETHERITE("fine_sapphire_netherite", 37, new int[]{3, 6, 8, 3}, 15,
+            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3F, 0.5F,
+            () -> Ingredient.ofItems(Items.NETHERITE_INGOT)),
+    FLAWLESS_SAPPHIRE_NETHERITE("flawless_sapphire_netherite", 37, new int[]{3, 6, 8, 3}, 15,
+            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3F, 0.9F,
+            () -> Ingredient.ofItems(Items.NETHERITE_INGOT)),
+    PERFECT_SAPPHIRE_NETHERITE("perfect_sapphire_netherite", 37, new int[]{3, 6, 8, 3}, 15,
+            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3F, 1.7F,
             () -> Ingredient.ofItems(Items.NETHERITE_INGOT));
 
 

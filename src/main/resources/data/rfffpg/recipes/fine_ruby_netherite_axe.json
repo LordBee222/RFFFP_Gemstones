@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_axe"
+  },
+  "addition": {
+    "item": "rfffpg:fine_ruby_gemstone"
+  },
+  "result": {
+    "item": "rfffpg:fine_ruby_netherite_axe"
+  }
+}

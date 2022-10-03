@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_sword"
+  },
+  "addition": {
+    "item": "rfffpg:flawed_ruby_gemstone"
+  },
+  "result": {
+    "item": "rfffpg:flawed_ruby_netherite_sword"
+  }
+}
