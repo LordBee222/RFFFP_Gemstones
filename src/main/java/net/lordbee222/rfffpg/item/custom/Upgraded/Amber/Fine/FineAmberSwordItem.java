@@ -18,4 +18,9 @@ public class FineAmberSwordItem extends SwordItem {
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
         tooltip.add(Text.translatable("item.rfffpg.fine_amber_applied.tooltip"));
     }
+
+    @Override
+    public boolean isFireproof() {
+        return true;
+    }
 }

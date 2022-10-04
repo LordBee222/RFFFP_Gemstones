@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_leggings"
+  },
+  "addition": {
+    "item": "rfffpg:perfect_sapphire_gemstone"
+  },
+  "result": {
+    "item": "rfffpg:perfect_sapphire_netherite_leggings"
+  }
+}

@@ -51,6 +51,17 @@ public enum RFFFPGToolMaterial implements ToolMaterial {
     FLAWLESS_RUBY_NETHERITE(MiningLevels.NETHERITE, 2031, 9F, 0, 15, () ->
             Ingredient.ofItems(Items.NETHERITE_INGOT)),
     PERFECT_RUBY_NETHERITE(MiningLevels.NETHERITE, 2031, 9F, 0, 15, () ->
+            Ingredient.ofItems(Items.NETHERITE_INGOT)),
+
+    ROUGH_TOPAZ_NETHERITE(MiningLevels.NETHERITE, 2031, 9F, 0, 15, () ->
+            Ingredient.ofItems(Items.NETHERITE_INGOT)),
+    FLAWED_TOPAZ_NETHERITE(MiningLevels.NETHERITE, 2031, 9F, 0, 15, () ->
+            Ingredient.ofItems(Items.NETHERITE_INGOT)),
+    FINE_TOPAZ_NETHERITE(MiningLevels.NETHERITE, 2031, 9F, 0, 15, () ->
+            Ingredient.ofItems(Items.NETHERITE_INGOT)),
+    FLAWLESS_TOPAZ_NETHERITE(MiningLevels.NETHERITE, 2031, 9F, 0, 15, () ->
+            Ingredient.ofItems(Items.NETHERITE_INGOT)),
+    PERFECT_TOPAZ_NETHERITE(MiningLevels.NETHERITE, 2031, 9F, 0, 15, () ->
             Ingredient.ofItems(Items.NETHERITE_INGOT));
 
 

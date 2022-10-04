@@ -18,4 +18,9 @@ public class FlawedRubyShovelItem extends ShovelItem {
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
         tooltip.add(Text.translatable("item.rfffpg.flawed_ruby_applied.tooltip"));
     }
+
+    @Override
+    public boolean isFireproof() {
+        return true;
+    }
 }

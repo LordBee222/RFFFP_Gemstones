@@ -21,4 +21,9 @@ public class FineOpalArmorItem extends ArmorItem {
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
         tooltip.add(Text.translatable("item.rfffpg.fine_opal_applied.tooltip"));
     }
+
+    @Override
+    public boolean isFireproof() {
+        return true;
+    }
 }

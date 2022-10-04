@@ -18,4 +18,9 @@ public class RoughJadeSwordItem extends SwordItem {
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
         tooltip.add(Text.translatable("item.rfffpg.rough_jade_applied.tooltip"));
     }
+
+    @Override
+    public boolean isFireproof() {
+        return true;
+    }
 }
