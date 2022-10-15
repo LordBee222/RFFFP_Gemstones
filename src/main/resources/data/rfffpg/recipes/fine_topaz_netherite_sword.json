@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_sword"
+  },
+  "addition": {
+    "item": "rfffpg:fine_topaz_gemstone"
+  },
+  "result": {
+    "item": "rfffpg:fine_topaz_netherite_sword"
+  }
+}

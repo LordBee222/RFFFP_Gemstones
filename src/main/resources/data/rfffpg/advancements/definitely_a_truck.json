@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_sword"
+    },
+    "title": "Definitely A Truck",
+    "description": "Apply A Perfect Ruby Gemstone To A Netherite Sword",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "rfffpg:rfffpg",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rfffpg:perfect_ruby_netherite_sword"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

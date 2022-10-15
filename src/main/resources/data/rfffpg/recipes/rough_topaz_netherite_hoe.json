@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_hoe"
+  },
+  "addition": {
+    "item": "rfffpg:rough_topaz_gemstone"
+  },
+  "result": {
+    "item": "rfffpg:rough_topaz_netherite_hoe"
+  }
+}

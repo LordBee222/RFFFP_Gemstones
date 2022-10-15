@@ -3,6 +3,7 @@ package net.lordbee222.rfffpg;
 import net.fabricmc.api.ModInitializer;
 import net.lordbee222.rfffpg.block.RFFFPGemstonesBlocks;
 import net.lordbee222.rfffpg.item.RFFFPGemstonesItems;
+import net.lordbee222.rfffpg.util.RFFFPGLootTableModifiers;
 import net.lordbee222.rfffpg.world.feature.RFFFPGemstonesConfiguredFeatures;
 import net.lordbee222.rfffpg.world.gen.RFFFPGenstonesOreGeneration;
 import org.slf4j.Logger;
@@ -20,6 +21,7 @@ public class RFFFPGMod implements ModInitializer {
 		RFFFPGemstonesItems.registerModItems();
 		RFFFPGemstonesBlocks.registerModBlocks();
 		RFFFPGenstonesOreGeneration.generateOres();
+		RFFFPGLootTableModifiers.modifyLootTables();
 
 	}
 }

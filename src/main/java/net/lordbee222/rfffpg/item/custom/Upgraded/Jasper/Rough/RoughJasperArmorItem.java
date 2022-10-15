@@ -26,4 +26,5 @@ public class RoughJasperArmorItem extends ArmorItem {
     public boolean isFireproof() {
         return true;
     }
+
 }

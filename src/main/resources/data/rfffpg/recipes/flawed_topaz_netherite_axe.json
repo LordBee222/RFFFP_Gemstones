@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_axe"
+  },
+  "addition": {
+    "item": "rfffpg:flawed_topaz_gemstone"
+  },
+  "result": {
+    "item": "rfffpg:flawed_topaz_netherite_axe"
+  }
+}

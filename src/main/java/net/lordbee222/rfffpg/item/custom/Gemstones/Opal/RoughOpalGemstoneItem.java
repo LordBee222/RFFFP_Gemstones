@@ -17,4 +17,8 @@ public class RoughOpalGemstoneItem extends Item {
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
         tooltip.add(Text.translatable("item.rfffpg.rough_opal.tooltip"));
     }
+    @Override
+    public boolean hasGlint(ItemStack stack) {
+        return true;
+    }
 }

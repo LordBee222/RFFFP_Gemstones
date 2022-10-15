@@ -23,4 +23,5 @@ public class PerfectAmberPickaxeItem extends PickaxeItem {
     public boolean isFireproof() {
         return true;
     }
+
 }

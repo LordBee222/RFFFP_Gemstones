@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.lordbee222.rfffpg.RFFFPGMod"
+    ],
+    "client": [
+      "net.lordbee222.rfffpg.RFFFPGemstonesClient"
     ]
   },
   "mixins": [

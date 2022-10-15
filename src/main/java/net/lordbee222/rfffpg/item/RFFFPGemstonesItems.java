@@ -684,79 +684,79 @@ public class RFFFPGemstonesItems {
     public static final Item PERFECT_TOPAZ_GEMSTONE = registerItem("perfect_topaz_gemstone",
             new PerfectTopazGemstoneItem(new FabricItemSettings().group(RFFFPGemstonesItemGroups.RFFFPG)));
     public static final Item ROUGH_TOPAZ_NETHERITE_SWORD = registerItem("rough_topaz_netherite_sword",
-            new RoughTopazSwordItem(RFFFPGToolMaterial.ROUGH_TOPAZ_NETHERITE, 7, -2.4f,
+            new RoughTopazSwordItem(RFFFPGToolMaterial.ROUGH_TOPAZ_NETHERITE, 7, -2.3f,
                     new FabricItemSettings()));
     public static final Item ROUGH_TOPAZ_NETHERITE_PICKAXE = registerItem("rough_topaz_netherite_pickaxe",
-            new RoughTopazPickaxeItem(RFFFPGToolMaterial.ROUGH_TOPAZ_NETHERITE, 5, -2.8f,
+            new RoughTopazPickaxeItem(RFFFPGToolMaterial.ROUGH_TOPAZ_NETHERITE, 5, -2.7f,
                     new FabricItemSettings()));
     public static final Item ROUGH_TOPAZ_NETHERITE_AXE = registerItem("rough_topaz_netherite_axe",
-            new RoughTopazAxeItem(RFFFPGToolMaterial.ROUGH_TOPAZ_NETHERITE, 9, -3f,
+            new RoughTopazAxeItem(RFFFPGToolMaterial.ROUGH_TOPAZ_NETHERITE, 9, -2.9f,
                     new FabricItemSettings()));
     public static final Item ROUGH_TOPAZ_NETHERITE_SHOVEL = registerItem("rough_topaz_netherite_shovel",
-            new RoughTopazShovelItem((ToolMaterial) RFFFPGToolMaterial.ROUGH_TOPAZ_NETHERITE, 5.5F, -3f,
+            new RoughTopazShovelItem((ToolMaterial) RFFFPGToolMaterial.ROUGH_TOPAZ_NETHERITE, 5.4F, -2.9f,
                     new FabricItemSettings()));
     public static final Item ROUGH_TOPAZ_NETHERITE_HOE = registerItem("rough_topaz_netherite_hoe",
-            new RoughTopazHoeItem(RFFFPGToolMaterial.ROUGH_TOPAZ_NETHERITE, 0, 0f,
+            new RoughTopazHoeItem(RFFFPGToolMaterial.ROUGH_TOPAZ_NETHERITE, 0, 0.1f,
                     new FabricItemSettings()));
     public static final Item FLAWED_TOPAZ_NETHERITE_SWORD = registerItem("flawed_topaz_netherite_sword",
-            new FlawedTopazSwordItem(RFFFPGToolMaterial.FLAWED_TOPAZ_NETHERITE, 7, -2.4f,
+            new FlawedTopazSwordItem(RFFFPGToolMaterial.FLAWED_TOPAZ_NETHERITE, 7, -2.2f,
                     new FabricItemSettings()));
     public static final Item FLAWED_TOPAZ_NETHERITE_PICKAXE = registerItem("flawed_topaz_netherite_pickaxe",
-            new FlawedTopazPickaxeItem(RFFFPGToolMaterial.FLAWED_TOPAZ_NETHERITE, 5, -2.8f,
+            new FlawedTopazPickaxeItem(RFFFPGToolMaterial.FLAWED_TOPAZ_NETHERITE, 5, -2.6f,
                     new FabricItemSettings()));
     public static final Item FLAWED_TOPAZ_NETHERITE_AXE = registerItem("flawed_topaz_netherite_axe",
-            new FlawedTopazAxeItem(RFFFPGToolMaterial.FLAWED_TOPAZ_NETHERITE, 9, -3f,
+            new FlawedTopazAxeItem(RFFFPGToolMaterial.FLAWED_TOPAZ_NETHERITE, 9, -2.8f,
                     new FabricItemSettings()));
     public static final Item FLAWED_TOPAZ_NETHERITE_SHOVEL = registerItem("flawed_topaz_netherite_shovel",
-            new FlawedTopazShovelItem((ToolMaterial) RFFFPGToolMaterial.FLAWED_TOPAZ_NETHERITE, 5.5F, -3f,
+            new FlawedTopazShovelItem((ToolMaterial) RFFFPGToolMaterial.FLAWED_TOPAZ_NETHERITE, 5.5F, -2.8f,
                     new FabricItemSettings()));
     public static final Item FLAWED_TOPAZ_NETHERITE_HOE = registerItem("flawed_topaz_netherite_hoe",
-            new FlawedTopazHoeItem(RFFFPGToolMaterial.FLAWED_TOPAZ_NETHERITE, 0, 0f,
+            new FlawedTopazHoeItem(RFFFPGToolMaterial.FLAWED_TOPAZ_NETHERITE, 0, 0.2f,
                     new FabricItemSettings()));
     public static final Item FINE_TOPAZ_NETHERITE_SWORD = registerItem("fine_topaz_netherite_sword",
-            new FineTopazSwordItem(RFFFPGToolMaterial.FINE_TOPAZ_NETHERITE, 7, -2.4f,
+            new FineTopazSwordItem(RFFFPGToolMaterial.FINE_TOPAZ_NETHERITE, 7, -2.0f,
                     new FabricItemSettings()));
     public static final Item FINE_TOPAZ_NETHERITE_PICKAXE = registerItem("fine_topaz_netherite_pickaxe",
-            new FineTopazPickaxeItem(RFFFPGToolMaterial.FINE_TOPAZ_NETHERITE, 5, -2.8f,
+            new FineTopazPickaxeItem(RFFFPGToolMaterial.FINE_TOPAZ_NETHERITE, 5, -2.4f,
                     new FabricItemSettings()));
     public static final Item FINE_TOPAZ_NETHERITE_AXE = registerItem("fine_topaz_netherite_axe",
-            new FineTopazAxeItem(RFFFPGToolMaterial.FINE_TOPAZ_NETHERITE, 9, -3f,
+            new FineTopazAxeItem(RFFFPGToolMaterial.FINE_TOPAZ_NETHERITE, 9, -2.6f,
                     new FabricItemSettings()));
     public static final Item FINE_TOPAZ_NETHERITE_SHOVEL = registerItem("fine_topaz_netherite_shovel",
-            new FineTopazShovelItem((ToolMaterial) RFFFPGToolMaterial.FINE_TOPAZ_NETHERITE, 5.5F, -3f,
+            new FineTopazShovelItem((ToolMaterial) RFFFPGToolMaterial.FINE_TOPAZ_NETHERITE, 5.5F, -2.6f,
                     new FabricItemSettings()));
     public static final Item FINE_TOPAZ_NETHERITE_HOE = registerItem("fine_topaz_netherite_hoe",
-            new FineTopazHoeItem(RFFFPGToolMaterial.FINE_TOPAZ_NETHERITE, 0, 0f,
+            new FineTopazHoeItem(RFFFPGToolMaterial.FINE_TOPAZ_NETHERITE, 0, 0.4f,
                     new FabricItemSettings()));
     public static final Item FLAWLESS_TOPAZ_NETHERITE_SWORD = registerItem("flawless_topaz_netherite_sword",
-            new FlawlessTopazSwordItem(RFFFPGToolMaterial.FLAWLESS_TOPAZ_NETHERITE, 7, -2.4f,
+            new FlawlessTopazSwordItem(RFFFPGToolMaterial.FLAWLESS_TOPAZ_NETHERITE, 7, -1.6f,
                     new FabricItemSettings()));
     public static final Item FLAWLESS_TOPAZ_NETHERITE_PICKAXE = registerItem("flawless_topaz_netherite_pickaxe",
-            new FlawlessTopazPickaxeItem(RFFFPGToolMaterial.FLAWLESS_TOPAZ_NETHERITE, 5, -2.8f,
+            new FlawlessTopazPickaxeItem(RFFFPGToolMaterial.FLAWLESS_TOPAZ_NETHERITE, 5, -2f,
                     new FabricItemSettings()));
     public static final Item FLAWLESS_TOPAZ_NETHERITE_AXE = registerItem("flawless_topaz_netherite_axe",
-            new FlawlessTopazAxeItem(RFFFPGToolMaterial.FLAWLESS_TOPAZ_NETHERITE, 9, -3f,
+            new FlawlessTopazAxeItem(RFFFPGToolMaterial.FLAWLESS_TOPAZ_NETHERITE, 9, -2.2f,
                     new FabricItemSettings()));
     public static final Item FLAWLESS_TOPAZ_NETHERITE_SHOVEL = registerItem("flawless_topaz_netherite_shovel",
-            new FlawlessTopazShovelItem((ToolMaterial) RFFFPGToolMaterial.FLAWLESS_TOPAZ_NETHERITE, 5.5F, -3f,
+            new FlawlessTopazShovelItem((ToolMaterial) RFFFPGToolMaterial.FLAWLESS_TOPAZ_NETHERITE, 5.5F, -2.2f,
                     new FabricItemSettings()));
     public static final Item FLAWLESS_TOPAZ_NETHERITE_HOE = registerItem("flawless_topaz_netherite_hoe",
-            new FlawlessTopazHoeItem(RFFFPGToolMaterial.FLAWLESS_TOPAZ_NETHERITE, 0, 0f,
+            new FlawlessTopazHoeItem(RFFFPGToolMaterial.FLAWLESS_TOPAZ_NETHERITE, 0, 0.8f,
                     new FabricItemSettings()));
     public static final Item PERFECT_TOPAZ_NETHERITE_SWORD = registerItem("perfect_topaz_netherite_sword",
-            new PerfectTopazSwordItem(RFFFPGToolMaterial.PERFECT_TOPAZ_NETHERITE, 7, -2.4f,
+            new PerfectTopazSwordItem(RFFFPGToolMaterial.PERFECT_TOPAZ_NETHERITE, 7, -0.8f,
                     new FabricItemSettings()));
     public static final Item PERFECT_TOPAZ_NETHERITE_PICKAXE = registerItem("perfect_topaz_netherite_pickaxe",
-            new PerfectTopazPickaxeItem(RFFFPGToolMaterial.PERFECT_TOPAZ_NETHERITE, 5, -2.8f,
+            new PerfectTopazPickaxeItem(RFFFPGToolMaterial.PERFECT_TOPAZ_NETHERITE, 5, -1.2f,
                     new FabricItemSettings()));
     public static final Item PERFECT_TOPAZ_NETHERITE_AXE = registerItem("perfect_topaz_netherite_axe",
-            new PerfectTopazAxeItem(RFFFPGToolMaterial.PERFECT_TOPAZ_NETHERITE, 9, -3f,
+            new PerfectTopazAxeItem(RFFFPGToolMaterial.PERFECT_TOPAZ_NETHERITE, 9, -1.4f,
                     new FabricItemSettings()));
     public static final Item PERFECT_TOPAZ_NETHERITE_SHOVEL = registerItem("perfect_topaz_netherite_shovel",
-            new PerfectTopazShovelItem((ToolMaterial) RFFFPGToolMaterial.PERFECT_TOPAZ_NETHERITE, 5.5F, -3f,
+            new PerfectTopazShovelItem((ToolMaterial) RFFFPGToolMaterial.PERFECT_TOPAZ_NETHERITE, 5.5F, -1.4f,
                     new FabricItemSettings()));
     public static final Item PERFECT_TOPAZ_NETHERITE_HOE = registerItem("perfect_topaz_netherite_hoe",
-            new PerfectTopazHoeItem(RFFFPGToolMaterial.PERFECT_TOPAZ_NETHERITE, 0, 0f,
+            new PerfectTopazHoeItem(RFFFPGToolMaterial.PERFECT_TOPAZ_NETHERITE, 0, 1.6f,
                     new FabricItemSettings()));
 
 
