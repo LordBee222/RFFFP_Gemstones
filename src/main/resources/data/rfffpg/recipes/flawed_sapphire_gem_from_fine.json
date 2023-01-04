@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rfffpg:fine_sapphire_gemstone"
+    }
+  ],
+  "result": {
+    "item": "rfffpg:flawed_sapphire_gemstone",
+    "count": 9
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rfffpg:fine_jade_gemstone"
+    }
+  ],
+  "result": {
+    "item": "rfffpg:flawed_jade_gemstone",
+    "count": 9
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rfffpg:flawless_ruby_gemstone"
+    }
+  ],
+  "result": {
+    "item": "rfffpg:fine_ruby_gemstone",
+    "count": 9
+  }
+}

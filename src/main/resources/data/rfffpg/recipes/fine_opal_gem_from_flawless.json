@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rfffpg:flawless_opal_gemstone"
+    }
+  ],
+  "result": {
+    "item": "rfffpg:fine_opal_gemstone",
+    "count": 9
+  }
+}

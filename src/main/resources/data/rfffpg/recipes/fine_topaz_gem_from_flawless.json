@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rfffpg:flawless_topaz_gemstone"
+    }
+  ],
+  "result": {
+    "item": "rfffpg:fine_topaz_gemstone",
+    "count": 9
+  }
+}
