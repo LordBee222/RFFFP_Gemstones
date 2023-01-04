@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:item_frame"
+    },
+    "title": "Collecting",
+    "description": "For Bragging Rights I Guess?"
+  },
+  "parent": "rfffpg:rfffpg",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

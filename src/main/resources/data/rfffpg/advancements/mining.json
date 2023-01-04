@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wooden_pickaxe"
+    },
+    "title": "Mining",
+    "description": "The Art Of Swinging Your Pickaxe"
+  },
+  "parent": "rfffpg:rfffpg",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

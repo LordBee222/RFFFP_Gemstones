@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "rfffpg:rough_amber_gemstone"
+      "item": "rfffpg:rough_topaz_gemstone"
     },
     "title": "Rough Stuff",
     "description": "Obtain A Rough Gemstone",
@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "rfffpg:rfffpg",
+  "parent": "rfffpg:mining",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "rfffpg:perfect_ruby_gemstone"
+    }
+  },
+  "result": {
+    "item": "rfffpg:ruby_block",
+    "count": 1
+  }
+}

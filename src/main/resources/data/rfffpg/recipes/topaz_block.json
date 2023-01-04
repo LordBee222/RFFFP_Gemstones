@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "rfffpg:perfect_topaz_gemstone"
+    }
+  },
+  "result": {
+    "item": "rfffpg:topaz_block",
+    "count": 1
+  }
+}

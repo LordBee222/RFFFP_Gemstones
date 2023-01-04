@@ -12,6 +12,13 @@
     "rfffpg:deepslate_jade_ore",
     "rfffpg:deepslate_jasper_ore",
     "rfffpg:deepslate_sapphire_ore",
-    "rfffpg:deepslate_topaz_ore"
+    "rfffpg:deepslate_topaz_ore",
+    "rfffpg:amber_block",
+    "rfffpg:jade_block",
+    "rfffpg:jasper_block",
+    "rfffpg:opal_block",
+    "rfffpg:ruby_block",
+    "rfffpg:sapphire_block",
+    "rfffpg:topaz_block"
   ]
 }

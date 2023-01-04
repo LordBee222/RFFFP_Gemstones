@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "rfffpg:perfect_jasper_gemstone"
+    }
+  },
+  "result": {
+    "item": "rfffpg:jasper_block",
+    "count": 1
+  }
+}

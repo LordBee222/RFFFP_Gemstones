@@ -1,11 +1,11 @@
 {
   "display": {
     "icon": {
-      "item": "rfffpg:rfffpg"
+      "item": "rfffpg:perfect_amber_gemstone"
     },
     "title": "RFFFP Gemstones",
     "description": "A Hypixel Skyblock Style Mod",
-    "background": "minecraft:textures/block/deepslate_top.png"
+    "background": "rfffpg:textures/block/deepslate_topaz_ore.png"
   },
   "criteria": {
     "requirement": {

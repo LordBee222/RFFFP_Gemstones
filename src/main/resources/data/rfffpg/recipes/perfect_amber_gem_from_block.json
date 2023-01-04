@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rfffpg:amber_block"
+    }
+  ],
+  "result": {
+    "item": "rfffpg:perfect_amber_gemstone",
+    "count": 9
+  }
+}

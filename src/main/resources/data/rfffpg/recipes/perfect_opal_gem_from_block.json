@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rfffpg:opal_block"
+    }
+  ],
+  "result": {
+    "item": "rfffpg:perfect_opal_gemstone",
+    "count": 9
+  }
+}

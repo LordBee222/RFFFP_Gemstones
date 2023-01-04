@@ -36,27 +36,54 @@ public class RFFFPGemstonesConfiguredFeatures {
             OreFeatureConfig.createTarget(OreConfiguredFeatures.STONE_ORE_REPLACEABLES, RFFFPGemstonesBlocks.TOPAZ_ORE.getDefaultState()),
             OreFeatureConfig.createTarget(OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES, RFFFPGemstonesBlocks.DEEPSLATE_TOPAZ_ORE.getDefaultState()));
 
-    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> AMBER_ORE =
-            ConfiguredFeatures.register("amber_ore", Feature.ORE, new OreFeatureConfig(AMBER_ORES, 12));
+    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> AMBER_ORE_SMALL =
+            ConfiguredFeatures.register("amber_ore_small", Feature.ORE, new OreFeatureConfig(AMBER_ORES, 2, 0.5f));
+    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> AMBER_ORE_MEDIUM =
+            ConfiguredFeatures.register("amber_ore_medium", Feature.ORE, new OreFeatureConfig(AMBER_ORES, 4, 1f));
+    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> AMBER_ORE_LARGE =
+            ConfiguredFeatures.register("amber_ore_large", Feature.ORE, new OreFeatureConfig(AMBER_ORES, 6, 0.7f));
 
-    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> JADE_ORE =
-            ConfiguredFeatures.register("jade_ore", Feature.ORE, new OreFeatureConfig(JADE_ORES, 12));
+    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> JADE_ORE_SMALL =
+            ConfiguredFeatures.register("jade_ore_small", Feature.ORE, new OreFeatureConfig(JADE_ORES, 2, 0.5f));
+    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> JADE_ORE_MEDIUM =
+            ConfiguredFeatures.register("jade_ore_medium", Feature.ORE, new OreFeatureConfig(JADE_ORES, 4, 1f));
+    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> JADE_ORE_LARGE =
+            ConfiguredFeatures.register("jade_ore_large", Feature.ORE, new OreFeatureConfig(JADE_ORES, 6, 0.7f));
 
-    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> JASPER_ORE =
-            ConfiguredFeatures.register("jasper_ore", Feature.ORE, new OreFeatureConfig(JASPER_ORES, 12));
+    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> JASPER_ORE_SMALL =
+            ConfiguredFeatures.register("jasper_ore_small", Feature.ORE, new OreFeatureConfig(JASPER_ORES, 2, 0.5f));
+    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> JASPER_ORE_MEDIUM =
+            ConfiguredFeatures.register("jasper_ore_medium", Feature.ORE, new OreFeatureConfig(JASPER_ORES, 4, 1f));
+    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> JASPER_ORE_LARGE =
+            ConfiguredFeatures.register("jasper_ore_large", Feature.ORE, new OreFeatureConfig(JASPER_ORES, 6, 0.7f));
 
-    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> RUBY_ORE =
-            ConfiguredFeatures.register("ruby_ore",Feature.ORE, new OreFeatureConfig(RUBY_ORES, 12));
+    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> RUBY_ORE_SMALL =
+            ConfiguredFeatures.register("ruby_ore_small",Feature.ORE, new OreFeatureConfig(RUBY_ORES, 2, 0.5f));
+    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> RUBY_ORE_MEDIUM =
+            ConfiguredFeatures.register("ruby_ore_medium", Feature.ORE, new OreFeatureConfig(RUBY_ORES, 4, 1f));
+    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> RUBY_ORE_LARGE =
+            ConfiguredFeatures.register("ruby_ore_large", Feature.ORE, new OreFeatureConfig(RUBY_ORES, 6, 0.7f));
 
-    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> OPAL_ORE =
-            ConfiguredFeatures.register("opal_ore",Feature.ORE, new OreFeatureConfig(OPAL_ORES, 12));
+    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> OPAL_ORE_SMALL =
+            ConfiguredFeatures.register("opal_ore_small",Feature.ORE, new OreFeatureConfig(OPAL_ORES, 2, 0.5f));
+    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> OPAL_ORE_MEDIUM =
+            ConfiguredFeatures.register("opal_ore_medium", Feature.ORE, new OreFeatureConfig(OPAL_ORES, 4, 1f));
+    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> OPAL_ORE_LARGE =
+            ConfiguredFeatures.register("opal_ore_large", Feature.ORE, new OreFeatureConfig(OPAL_ORES, 6, 0.7f));
 
-    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> SAPPHIRE_ORE =
-            ConfiguredFeatures.register("sapphire_ore",Feature.ORE, new OreFeatureConfig(SAPPHIRE_ORES, 12));
+    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> SAPPHIRE_ORE_SMALL =
+            ConfiguredFeatures.register("sapphire_ore_small",Feature.ORE, new OreFeatureConfig(SAPPHIRE_ORES, 2, 0.5f));
+    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> SAPPHIRE_ORE_MEDIUM =
+            ConfiguredFeatures.register("sapphire_ore_medium", Feature.ORE, new OreFeatureConfig(SAPPHIRE_ORES, 4, 1f));
+    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> SAPPHIRE_ORE_LARGE =
+            ConfiguredFeatures.register("sapphire_ore_large", Feature.ORE, new OreFeatureConfig(SAPPHIRE_ORES, 6, 0.7f));
 
-    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> TOPAZ_ORE =
-            ConfiguredFeatures.register("topaz_ore",Feature.ORE, new OreFeatureConfig(TOPAZ_ORES, 12));
-
+    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> TOPAZ_ORE_SMALL =
+            ConfiguredFeatures.register("topaz_ore_small",Feature.ORE, new OreFeatureConfig(TOPAZ_ORES, 2, 0.5f));
+    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> TOPAZ_ORE_MEDIUM =
+            ConfiguredFeatures.register("topaz_ore_medium", Feature.ORE, new OreFeatureConfig(TOPAZ_ORES, 4, 1f));
+    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> TOPAZ_ORE_LARGE =
+            ConfiguredFeatures.register("topaz_ore_large", Feature.ORE, new OreFeatureConfig(TOPAZ_ORES, 6, 0.7f));
 
     public static void registerConfiguredFeatures(){
         RFFFPGMod.LOGGER.debug("Registering the Configured Features for" + RFFFPGMod.MOD_ID);
