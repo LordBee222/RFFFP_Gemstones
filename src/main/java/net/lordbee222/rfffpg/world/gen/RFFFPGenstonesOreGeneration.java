@@ -29,12 +29,18 @@ public class RFFFPGenstonesOreGeneration {
         BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.MUSHROOM_FIELDS),
                 GenerationStep.Feature.UNDERGROUND_ORES, RFFFPGemstonesPlacedFeatures.JASPER_ORE_LARGE_PLACED.getKey().get());
 
-        BiomeModifications.addFeature(BiomeSelectors.foundInTheNether(),
-                GenerationStep.Feature.UNDERGROUND_ORES, RFFFPGemstonesPlacedFeatures.RUBY_ORE_SMALL_PLACED.getKey().get());
-        BiomeModifications.addFeature(BiomeSelectors.foundInTheNether(),
-                GenerationStep.Feature.UNDERGROUND_ORES, RFFFPGemstonesPlacedFeatures.RUBY_ORE_SMALL_PLACED.getKey().get());
-        BiomeModifications.addFeature(BiomeSelectors.foundInTheNether(),
-                GenerationStep.Feature.UNDERGROUND_ORES, RFFFPGemstonesPlacedFeatures.RUBY_ORE_LARGE_PLACED.getKey().get());
+        BiomeModifications.addFeature(BiomeSelectors.includeByKey(
+                        BiomeKeys.NETHER_WASTES, BiomeKeys.SOUL_SAND_VALLEY, BiomeKeys.BASALT_DELTAS, BiomeKeys.CRIMSON_FOREST,
+                        BiomeKeys.WARPED_FOREST),
+        GenerationStep.Feature.UNDERGROUND_ORES, RFFFPGemstonesPlacedFeatures.RUBY_ORE_SMALL_PLACED.getKey().get());
+        BiomeModifications.addFeature(BiomeSelectors.includeByKey(
+                        BiomeKeys.NETHER_WASTES, BiomeKeys.SOUL_SAND_VALLEY, BiomeKeys.BASALT_DELTAS, BiomeKeys.CRIMSON_FOREST,
+                        BiomeKeys.WARPED_FOREST),
+        GenerationStep.Feature.UNDERGROUND_ORES, RFFFPGemstonesPlacedFeatures.RUBY_ORE_MEDIUM_PLACED.getKey().get());
+        BiomeModifications.addFeature(BiomeSelectors.includeByKey(
+                BiomeKeys.NETHER_WASTES, BiomeKeys.SOUL_SAND_VALLEY, BiomeKeys.BASALT_DELTAS, BiomeKeys.CRIMSON_FOREST,
+                BiomeKeys.WARPED_FOREST),
+        GenerationStep.Feature.UNDERGROUND_ORES, RFFFPGemstonesPlacedFeatures.RUBY_ORE_LARGE_PLACED.getKey().get());
 
         BiomeModifications.addFeature(BiomeSelectors.foundInTheEnd(),
                 GenerationStep.Feature.UNDERGROUND_ORES, RFFFPGemstonesPlacedFeatures.OPAL_ORE_SMALL_PLACED.getKey().get());
