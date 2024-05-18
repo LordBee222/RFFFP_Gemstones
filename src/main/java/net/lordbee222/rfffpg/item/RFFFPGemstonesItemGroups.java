@@ -10,3 +10,4 @@ public class RFFFPGemstonesItemGroups {
     public static final ItemGroup RFFFPG = FabricItemGroupBuilder.build(new Identifier(RFFFPGMod.MOD_ID, "rfffpg"),
             () -> new ItemStack(RFFFPGemstonesItems.PERFECT_AMBER_GEMSTONE));
 }
+

@@ -1,68 +1,71 @@
 package net.lordbee222.rfffpg.item;
 
-import net.fabricmc.yarn.constants.MiningLevels;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
+import net.minecraft.tag.ItemTags;
 import net.minecraft.util.Lazy;
 
 import java.util.function.Supplier;
 
 public enum RFFFPGToolMaterial implements ToolMaterial {
-    ROUGH_AMBER_NETHERITE(MiningLevels.NETHERITE, 2031, 10F, 0, 15, () ->
+    ROUGH_AMBER_NETHERITE(4, 2031, 10F, 0, 15, () ->
             Ingredient.ofItems(Items.NETHERITE_INGOT)),
-    FLAWED_AMBER_NETHERITE(MiningLevels.NETHERITE, 2031, 11F, 0, 15, () ->
+    FLAWED_AMBER_NETHERITE(4, 2031, 11F, 0, 15, () ->
             Ingredient.ofItems(Items.NETHERITE_INGOT)),
-    FINE_AMBER_NETHERITE(MiningLevels.NETHERITE, 2031, 13F, 0, 15, () ->
+    FINE_AMBER_NETHERITE(4, 2031, 13F, 0, 15, () ->
             Ingredient.ofItems(Items.NETHERITE_INGOT)),
-    FLAWLESS_AMBER_NETHERITE(MiningLevels.NETHERITE, 2031, 17F, 0, 15, () ->
+    FLAWLESS_AMBER_NETHERITE(4, 2031, 17F, 0, 15, () ->
             Ingredient.ofItems(Items.NETHERITE_INGOT)),
-    PERFECT_AMBER_NETHERITE(MiningLevels.NETHERITE, 2031, 25F, 0, 15, () ->
-            Ingredient.ofItems(Items.NETHERITE_INGOT)),
-
-    ROUGH_JADE_NETHERITE(MiningLevels.NETHERITE, 2131, 9F, 0, 15, () ->
-            Ingredient.ofItems(Items.NETHERITE_INGOT)),
-    FLAWED_JADE_NETHERITE(MiningLevels.NETHERITE, 2231, 9F, 0, 15, () ->
-            Ingredient.ofItems(Items.NETHERITE_INGOT)),
-    FINE_JADE_NETHERITE(MiningLevels.NETHERITE, 2431, 9F, 0, 15, () ->
-            Ingredient.ofItems(Items.NETHERITE_INGOT)),
-    FLAWLESS_JADE_NETHERITE(MiningLevels.NETHERITE, 2831, 9F, 0, 15, () ->
-            Ingredient.ofItems(Items.NETHERITE_INGOT)),
-    PERFECT_JADE_NETHERITE(MiningLevels.NETHERITE, 3631, 9F, 0, 15, () ->
+    PERFECT_AMBER_NETHERITE(4, 2031, 25F, 0, 15, () ->
             Ingredient.ofItems(Items.NETHERITE_INGOT)),
 
-    ROUGH_JASPER_NETHERITE(MiningLevels.NETHERITE, 2031, 9F, 0, 16, () ->
+    ROUGH_JADE_NETHERITE(4, 2131, 9F, 0, 15, () ->
             Ingredient.ofItems(Items.NETHERITE_INGOT)),
-    FLAWED_JASPER_NETHERITE(MiningLevels.NETHERITE, 2031, 9F, 0, 17, () ->
+    FLAWED_JADE_NETHERITE(4, 2231, 9F, 0, 15, () ->
             Ingredient.ofItems(Items.NETHERITE_INGOT)),
-    FINE_JASPER_NETHERITE(MiningLevels.NETHERITE, 2031, 9F, 0, 19, () ->
+    FINE_JADE_NETHERITE(4, 2431, 9F, 0, 15, () ->
             Ingredient.ofItems(Items.NETHERITE_INGOT)),
-    FLAWLESS_JASPER_NETHERITE(MiningLevels.NETHERITE, 2031, 9F, 0, 23, () ->
+    FLAWLESS_JADE_NETHERITE(4, 2831, 9F, 0, 15, () ->
             Ingredient.ofItems(Items.NETHERITE_INGOT)),
-    PERFECT_JASPER_NETHERITE(MiningLevels.NETHERITE, 2031, 9F, 0, 31, () ->
-            Ingredient.ofItems(Items.NETHERITE_INGOT)),
-
-    ROUGH_RUBY_NETHERITE(MiningLevels.NETHERITE, 2031, 9F, 0, 15, () ->
-            Ingredient.ofItems(Items.NETHERITE_INGOT)),
-    FLAWED_RUBY_NETHERITE(MiningLevels.NETHERITE, 2031, 9F, 0, 15, () ->
-            Ingredient.ofItems(Items.NETHERITE_INGOT)),
-    FINE_RUBY_NETHERITE(MiningLevels.NETHERITE, 2031, 9F, 0, 15, () ->
-            Ingredient.ofItems(Items.NETHERITE_INGOT)),
-    FLAWLESS_RUBY_NETHERITE(MiningLevels.NETHERITE, 2031, 9F, 0, 15, () ->
-            Ingredient.ofItems(Items.NETHERITE_INGOT)),
-    PERFECT_RUBY_NETHERITE(MiningLevels.NETHERITE, 2031, 9F, 0, 15, () ->
+    PERFECT_JADE_NETHERITE(4, 3631, 9F, 0, 15, () ->
             Ingredient.ofItems(Items.NETHERITE_INGOT)),
 
-    ROUGH_TOPAZ_NETHERITE(MiningLevels.NETHERITE, 2031, 9F, 0, 15, () ->
+    ROUGH_JASPER_NETHERITE(4, 2031, 9F, 0, 16, () ->
             Ingredient.ofItems(Items.NETHERITE_INGOT)),
-    FLAWED_TOPAZ_NETHERITE(MiningLevels.NETHERITE, 2031, 9F, 0, 15, () ->
+    FLAWED_JASPER_NETHERITE(4, 2031, 9F, 0, 17, () ->
             Ingredient.ofItems(Items.NETHERITE_INGOT)),
-    FINE_TOPAZ_NETHERITE(MiningLevels.NETHERITE, 2031, 9F, 0, 15, () ->
+    FINE_JASPER_NETHERITE(4, 2031, 9F, 0, 19, () ->
             Ingredient.ofItems(Items.NETHERITE_INGOT)),
-    FLAWLESS_TOPAZ_NETHERITE(MiningLevels.NETHERITE, 2031, 9F, 0, 15, () ->
+    FLAWLESS_JASPER_NETHERITE(4, 2031, 9F, 0, 23, () ->
             Ingredient.ofItems(Items.NETHERITE_INGOT)),
-    PERFECT_TOPAZ_NETHERITE(MiningLevels.NETHERITE, 2031, 9F, 0, 15, () ->
+    PERFECT_JASPER_NETHERITE(4, 2031, 9F, 0, 31, () ->
+            Ingredient.ofItems(Items.NETHERITE_INGOT)),
+
+    ROUGH_RUBY_NETHERITE(4, 2031, 9F, 0, 15, () ->
+            Ingredient.ofItems(Items.NETHERITE_INGOT)),
+    FLAWED_RUBY_NETHERITE(4, 2031, 9F, 0, 15, () ->
+            Ingredient.ofItems(Items.NETHERITE_INGOT)),
+    FINE_RUBY_NETHERITE(4, 2031, 9F, 0, 15, () ->
+            Ingredient.ofItems(Items.NETHERITE_INGOT)),
+    FLAWLESS_RUBY_NETHERITE(4, 2031, 9F, 0, 15, () ->
+            Ingredient.ofItems(Items.NETHERITE_INGOT)),
+    PERFECT_RUBY_NETHERITE(4, 2031, 9F, 0, 15, () ->
+            Ingredient.ofItems(Items.NETHERITE_INGOT)),
+
+    ROUGH_TOPAZ_NETHERITE(4, 2031, 9F, 0, 15, () ->
+            Ingredient.ofItems(Items.NETHERITE_INGOT)),
+    FLAWED_TOPAZ_NETHERITE(4, 2031, 9F, 0, 15, () ->
+            Ingredient.ofItems(Items.NETHERITE_INGOT)),
+    FINE_TOPAZ_NETHERITE(4, 2031, 9F, 0, 15, () ->
+            Ingredient.ofItems(Items.NETHERITE_INGOT)),
+    FLAWLESS_TOPAZ_NETHERITE(4, 2031, 9F, 0, 15, () ->
+            Ingredient.ofItems(Items.NETHERITE_INGOT)),
+    PERFECT_TOPAZ_NETHERITE(4, 2031, 9F, 0, 15, () ->
             Ingredient.ofItems(Items.NETHERITE_INGOT));
+
 
 
     private final int miningLevel;

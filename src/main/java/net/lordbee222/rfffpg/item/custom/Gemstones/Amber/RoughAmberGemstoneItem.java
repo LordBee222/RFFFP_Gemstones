@@ -21,4 +21,5 @@ public class RoughAmberGemstoneItem extends Item {
     public boolean hasGlint(ItemStack stack) {
         return true;
     }
+
 }

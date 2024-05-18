@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "group": "amber_rough",
   "ingredients": [
     {
       "item": "rfffpg:flawed_amber_gemstone"

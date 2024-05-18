@@ -10,8 +10,7 @@ import net.lordbee222.rfffpg.item.custom.Gemstones.Ruby.*;
 import net.lordbee222.rfffpg.item.custom.Gemstones.Sapphire.*;
 import net.lordbee222.rfffpg.item.custom.Gemstones.Topaz.*;
 import net.minecraft.entity.EquipmentSlot;
-import net.minecraft.item.Item;
-import net.minecraft.item.ToolMaterial;
+import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.lordbee222.rfffpg.item.custom.Upgraded.Amber.Rough.*;
@@ -758,10 +757,6 @@ public class RFFFPGemstonesItems {
     public static final Item PERFECT_TOPAZ_NETHERITE_HOE = registerItem("perfect_topaz_netherite_hoe",
             new PerfectTopazHoeItem(RFFFPGToolMaterial.PERFECT_TOPAZ_NETHERITE, 0, 1.6f,
                     new FabricItemSettings()));
-
-
-
-
 
 
 

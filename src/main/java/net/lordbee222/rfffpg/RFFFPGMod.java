@@ -22,6 +22,5 @@ public class RFFFPGMod implements ModInitializer {
 		RFFFPGemstonesBlocks.registerModBlocks();
 		RFFFPGenstonesOreGeneration.generateOres();
 		RFFFPGLootTableModifiers.modifyLootTables();
-
 	}
 }

@@ -23,4 +23,5 @@ public class RoughAmberAxeItem extends AxeItem {
     public boolean isFireproof() {
         return true;
     }
+
 }

@@ -1,5 +1,5 @@
 {
-  "replace": false,
+  "replace": true,
   "values": [
     "rfffpg:amber_ore",
     "rfffpg:jade_ore",
@@ -19,7 +19,16 @@
     "rfffpg:opal_block",
     "rfffpg:ruby_block",
     "rfffpg:sapphire_block",
-    "rfffpg:topaz_block"
+    "rfffpg:topaz_block",
+    "minecraft:emerald_ore",
+    "minecraft:deepslate_emerald_ore",
+    "minecraft:emerald_block",
+    "minecraft:gold_block",
+    "minecraft:raw_gold_block",
+    "minecraft:gold_ore",
+    "minecraft:deepslate_gold_ore",
+    "minecraft:redstone_ore",
+    "minecraft:deepslate_redstone_ore"
 
   ]
 }

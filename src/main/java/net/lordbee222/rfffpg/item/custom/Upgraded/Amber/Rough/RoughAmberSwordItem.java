@@ -23,4 +23,5 @@ public class RoughAmberSwordItem extends SwordItem {
     public boolean isFireproof() {
         return true;
     }
+
 }

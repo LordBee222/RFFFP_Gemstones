@@ -7,10 +7,10 @@
   "block.rfffpg.amber_ore": "Amber Ore",
   "block.rfffpg.amber_block": "Block Of Amber",
   "block.rfffpg.deepslate_amber_ore": "Deepslate Amber Ore",
-  "item.rfffpg.rough_jade_gemstone": "§2Rough Jade Gemstone",
-  "item.rfffpg.flawed_jade_gemstone": "§2Flawed Jade Gemstone",
-  "item.rfffpg.fine_jade_gemstone": "§2Fine Jade Gemstone",
-  "item.rfffpg.flawless_jade_gemstone": "§2Flawless Jade Gemstone",
+  "item.rfffpg.rough_jade_gemstone": "§aRough Jade Gemstone",
+  "item.rfffpg.flawed_jade_gemstone": "§aFlawed Jade Gemstone",
+  "item.rfffpg.fine_jade_gemstone": "§aFine Jade Gemstone",
+  "item.rfffpg.flawless_jade_gemstone": "§aFlawless Jade Gemstone",
   "item.rfffpg.perfect_jade_gemstone": "§2Perfect Jade Gemstone",
   "block.rfffpg.jade_ore": "Jade Ore",
   "block.rfffpg.jade_block": "Block Of Jade",
@@ -54,7 +54,6 @@
   "block.rfffpg.topaz_block": "Block Of Topaz",
   "block.rfffpg.deepslate_topaz_ore": "Deepslate Topaz Ore",
   "itemGroup.rfffpg.rfffpg": "RFFFP Gemstones",
-
 
   "item.rfffpg.rough_amber_netherite_sword": "§6Netherite Sword",
   "item.rfffpg.rough_amber_netherite_pickaxe": "§6Netherite Pickaxe",

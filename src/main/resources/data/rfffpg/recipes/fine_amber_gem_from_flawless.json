@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "group": "amber_fine",
   "ingredients": [
     {
       "item": "rfffpg:flawless_amber_gemstone"
